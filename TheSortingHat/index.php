@@ -10,10 +10,10 @@
 </head>
 <body>
 <!--navbar-->
-<?php require_once('navbar.php'); ?>
+<?php require_once('/navbar.php'); ?>
 
 <!--footer-->
-<?php require_once('footer.php'); ?>
+<?php require_once('/footer.php'); ?>
 
 </body>
 </html>
