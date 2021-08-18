@@ -15,7 +15,7 @@
   <?php require_once('navbar.php'); ?>
 
   <!--article-->
-  <a href="hogwarts.php">해리포터 기숙사 테스트</a>
+  <a href="/hogwarts.php">해리포터 기숙사 테스트</a>
 
   <!--footer-->
   <?php require_once('footer.php'); ?>
