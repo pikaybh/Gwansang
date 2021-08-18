@@ -40,12 +40,12 @@ header {
     position: absolute;
     top: 0;
     right: 25px;
-    font-size: 36px;
+    font-size: 24px;
     margin-left: 50px;
 }
 
 .logo {
-    font-size: 18px;
+    font-size: 12px;
     margin-left: 12px;
     margin-bottom: 8px;
 }
@@ -56,7 +56,7 @@ header {
 }
 
 .nav_btn {
-    font-size: 36px;
+    font-size: 24px;
     margin-right: 12px;
     margin-bottom: 10px;
 }
