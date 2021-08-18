@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI 관상 | 호그와트 기숙사 테스트</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./main.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
 </head>
 
 <body>
     <!--navbar-->
-    <?php include_once('navbar.php'); ?>
+    <?php include_once('./navbar.php'); ?>
 
     <!--article-->
     <article>
@@ -61,7 +61,7 @@
                 // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
                 // the link to your model provided by Teachable Machine export panel
-                const URL = "/model/";
+                const URL = "./model/";
 
                 let model, webcam, labelContainer, maxPredictions;
 
@@ -111,7 +111,7 @@
     </article>
 
     <!--footer-->
-    <?php require_once('footer.php'); ?>
+    <?php require_once('./footer.php'); ?>
 
 </body>
 
