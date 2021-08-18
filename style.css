@@ -157,7 +157,7 @@ footer {
 .gryffindor-bar-container {
     background-color: #FFC500;
     border-radius: 10px;
-    width: 500px;
+    width: 70vh;
     margin: auto;
 }
 
@@ -169,7 +169,7 @@ footer {
 .slytherin-bar-container {
     background-color: #AAAAAA;
     border-radius: 10px;
-    width: 500px;
+    width: 70vh;
     margin: auto;
 }
 
@@ -181,7 +181,7 @@ footer {
 .hufflepuff-bar-container {
     background-color: #000000;
     border-radius: 10px;
-    width: 500px;
+    width: 70vh;
     margin: auto;
 }
 
@@ -193,7 +193,7 @@ footer {
 .ravenclaw-bar-container {
     background-color: #946B2D;
     border-radius: 10px;
-    width: 500px;
+    width: 70vh;
     margin: auto;
 }
 
