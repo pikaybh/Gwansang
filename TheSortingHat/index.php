@@ -10,7 +10,7 @@
 </head>
 <body>
 <!--navbar-->
-<?php require_once("/navbar.php"); ?>
+<?php include_once('/navbar.php'); ?>
 
 <!--footer-->
 <?php require_once('/footer.php'); ?>
