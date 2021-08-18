@@ -139,7 +139,7 @@ footer {
 }
 
 .image-upload-wrap {
-    background-image: url('./images/Microsoft.VisualStudio.Services.Icons.ico');
+    background-image: url(' /images/Microsoft.VisualStudio.Services.Icons.ico');
     background-size: 200px 210px;
 }
 
