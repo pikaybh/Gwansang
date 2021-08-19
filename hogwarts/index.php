@@ -6,20 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI 관상 | 호그와트 기숙사 테스트</title>
-    <link rel="stylesheet" href="../style.css">
-    <script defer src="../main.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/hogwarts.css">
+    <script defer src="../js/main.js"></script>
+    <script defer src="../js/hogwarts.js"></script>
+    <script defer class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
 </head>
 
 <body>
     <!--navbar-->
-    <?php include_once('../navbar.php'); ?>
+    <?php require_once('../navbar.php'); ?>
 
     <!--article-->
     <article>
+        <div class="calousel"></div>
         <section class="hogwarts">
-            <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
             <div class="file-upload">
                 <div class="image-upload-wrap">
                     <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
@@ -34,28 +37,6 @@
                     </div>
                 </div>
             </div>
-            <script>
-                function readURL(input) {
-                if (input.files && input.files[0]) {
-
-                    var reader = new FileReader();
-
-                    reader.onload = function (e) {
-                        $('.image-upload-wrap').hide();
-
-                        $('.file-upload-image').attr('src', e.target.result);
-                        $('.file-upload-content').show();
-                    };
-
-                        reader.readAsDataURL(input.files[0]);
-                        init().then(() => {
-                            predict();
-                        });
-                    } else {
-                        removeUpload();
-                    }
-                }
-            </script>
             <script type="text/javascript">
                 // More API functions here:
                 // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
@@ -94,11 +75,12 @@
 
                     var varWidth;
                     for (let i = 0; i < maxPredictions; i++) {
-                        if (prediction[i].probability.toFixed(2) == 0.00) {
-
-                        } else{
+                        if (prediction[i].probability.toFixed(2) > 0.1) {
                             barWidth = Math.round(prediction[i].probability.toFixed(2) * 100) + "%";
-                            console.log(prediction[i].className);
+                        } else if (prediction[i].probability.toFixed(2) >= 0.01) {
+                            barWidth = "4%"
+                        } else {
+                            barWidth = "2%"
                         }
 
                         var label = "<div>" + prediction[i].className + "</div>"

@@ -1,0 +1,10 @@
+.homepage-article {
+    border-top: 1.5px outset;
+}
+
+.hogwarts {
+    width: 200px;
+    height: 210px;
+    background-image: url(../images/Microsoft.VisualStudio.Services.Icons.ico);
+    background-size: 200px 210px;
+}
