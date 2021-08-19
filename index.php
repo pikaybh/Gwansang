@@ -17,9 +17,21 @@
 
   <!--article-->
   <article class="homepage-article">
-    <section>
-    <a href="./hogwarts/"><div class="hogwarts" id="hogwarts"></div></a>
-    </section>
+    <ul>
+      <li>
+        <section>
+          <a href="./hogwarts/">
+            <div class="hogwarts" id="hogwarts"></div>
+            <h4>호구와트 기숙사 배정 테스트</h4>
+            <h5>AI 분류모자가 당신의 관상으로 정해주는 기숙사!</h5>
+          </a>
+        </section>
+      </li>
+      <li><div class="divline"></div></li>
+      <li>
+        <section></section>
+      </li>
+    </ul>
   </article>
 
   <!--footer-->
