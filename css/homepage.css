@@ -1,14 +1,24 @@
-h4, h5 {
-    margin: 0px;
-    text-decoration: none;
-}
-
 .homepage-article {
     border-top: 1.5px outset;
 }
 
+h4 {
+    margin: 0px;
+    color: black;
+}
+
+h5 {
+    margin: 0px;
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+}
+
 section {
-    border: 3px solid black;
+    border: 5px solid black;
+    padding: 10px;
 }
 
 ul {
@@ -33,9 +43,9 @@ ul {
 
 @media screen and (max-width: 600px) {
     .hogwarts {
-        width: 350px;
-        height: 350px;
+        width: 330px;
+        height: 330px;
         background-image: url(../images/Microsoft.VisualStudio.Services.Icons.ico);
-        background-size: 350px 350px;
+        background-size: 330px 330px;
     }
 }
