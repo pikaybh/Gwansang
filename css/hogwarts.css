@@ -15,15 +15,6 @@
     margin: auto;
 }
 
-@media screen and (max-width: 600px) {
-    .file-upload-image {
-        max-height: 300px;
-        max-width: 300px;
-        margin: auto;
-    }
-}
-
-
 .file-upload-content {
     display: none;
     text-align: center;
@@ -76,7 +67,7 @@
 .gryffindor-bar-container {
     background-color: #FFC500;
     border-radius: 10px;
-    width: 350px;
+    width: 300px;
     margin: auto;
 }
 
@@ -88,7 +79,7 @@
 .slytherin-bar-container {
     background-color: #AAAAAA;
     border-radius: 10px;
-    width: 350px;
+    width: 300px;
     margin: auto;
 }
 
@@ -100,7 +91,7 @@
 .hufflepuff-bar-container {
     background-color: #000000;
     border-radius: 10px;
-    width: 350px;
+    width: 300px;
     margin: auto;
 }
 
@@ -112,7 +103,7 @@
 .ravenclaw-bar-container {
     background-color: #946B2D;
     border-radius: 10px;
-    width: 350px;
+    width: 300px;
     margin: auto;
 }
 

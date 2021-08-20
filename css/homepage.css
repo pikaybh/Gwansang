@@ -33,9 +33,9 @@ ul {
 
 @media screen and (max-width: 600px) {
     .hogwarts {
-        width: 300px;
-        height: 300px;
+        width: 350px;
+        height: 350px;
         background-image: url(../images/Microsoft.VisualStudio.Services.Icons.ico);
-        background-size: 300px 300px;
+        background-size: 350px 350px;
     }
 }
