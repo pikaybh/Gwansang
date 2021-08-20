@@ -57,12 +57,12 @@
 
 .image-upload-wrap {
     background-image: url(' ../images/Microsoft.VisualStudio.Services.Icons.ico');
-    background-size: 200px 210px;
+    background-size: 330px 330px;
 }
 
 .file-upload-input {
-    width: 200px;
-    height: 210px;
+    width: 330px;
+    height: 330px;
     cursor: pointer;
     opacity: 0;
 }
