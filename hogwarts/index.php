@@ -22,6 +22,13 @@
     <!--article-->
     <article>
         <div class="calousel"></div>
+        <div class="title">
+            <?php include '../list.php';
+            echo 
+            $hogwartsTitle . 
+            $hogwartsSubtitle;
+            ?>
+        </div>
         <section class="hogwarts">
             <div class="file-upload">
                 <div class="image-upload-wrap">

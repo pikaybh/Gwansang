@@ -92,6 +92,16 @@ article {
     position: relative;
 }
 
+h4 {
+    margin: 0px;
+    color: black;
+}
+
+h5 {
+    margin: 0px;
+    color: grey;
+}
+
 /*footer*/
 footer {
     display: flex;

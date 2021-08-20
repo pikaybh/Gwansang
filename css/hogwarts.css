@@ -4,6 +4,11 @@
     background-color: silver;
 }
 
+.title {
+    width: 100%;
+    text-align:center;
+}
+
 .file-upload {
     margin: 0 auto;
     padding: 20px;

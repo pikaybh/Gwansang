@@ -22,8 +22,11 @@
         <section>
           <a href="./hogwarts/">
             <div class="hogwarts" id="hogwarts"></div>
-            <h4>호구와트 기숙사 배정 테스트</h4>
-            <h5>AI 분류모자가 당신의 관상으로 정해주는 기숙사!</h5>
+            <?php include './list.php';
+            echo 
+            $hogwartsTitle . 
+            $hogwartsSubtitle;
+            ?>
           </a>
         </section>
       </li>
