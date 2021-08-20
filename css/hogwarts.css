@@ -15,6 +15,15 @@
     margin: auto;
 }
 
+@media screen and (max-width: 600px) {
+    .file-upload-image {
+        max-height: 300px;
+        max-width: 300px;
+        margin: auto;
+    }
+}
+
+
 .file-upload-content {
     display: none;
     text-align: center;
