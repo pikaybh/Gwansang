@@ -17,8 +17,8 @@
 }
 
 .file-upload-image {
-    max-height: 320px;
-    max-width: 320px;
+    max-height: 500px;
+    max-width: 500px;
     margin: auto;
 }
 
@@ -70,15 +70,22 @@
 @media screen and (max-width: 600px) {
     .image-upload-wrap {
         background-image: url(' ../images/Microsoft.VisualStudio.Services.Icons.ico');
-        background-size: 330px 330px;
+        background-size: 320px 320px;
     }
     
     .file-upload-input {
-        width: 330px;
-        height: 330px;
+        width: 320px;
+        height: 320px;
         cursor: pointer;
         opacity: 0;
     }
+    
+    .file-upload-image {
+        max-height: 320px;
+        max-width: 320px;
+        margin: auto;
+    }
+
 }
 
 #label-container {
