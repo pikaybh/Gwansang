@@ -57,14 +57,28 @@
 
 .image-upload-wrap {
     background-image: url(' ../images/Microsoft.VisualStudio.Services.Icons.ico');
-    background-size: 330px 330px;
+    background-size: 500px 500px;
 }
 
 .file-upload-input {
-    width: 330px;
-    height: 330px;
+    width: 500px;
+    height: 500px;
     cursor: pointer;
     opacity: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .image-upload-wrap {
+        background-image: url(' ../images/Microsoft.VisualStudio.Services.Icons.ico');
+        background-size: 330px 330px;
+    }
+    
+    .file-upload-input {
+        width: 330px;
+        height: 330px;
+        cursor: pointer;
+        opacity: 0;
+    }
 }
 
 #label-container {
