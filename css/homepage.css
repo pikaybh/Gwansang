@@ -11,6 +11,10 @@ section {
     padding: 10px;
 }
 
+h4, h5 {
+    margin: 0px;
+}
+
 ul {
     list-style: none;
     list-style-position: initial;
