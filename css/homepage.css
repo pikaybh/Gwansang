@@ -25,8 +25,17 @@ ul {
 }
 
 .hogwarts {
-    width: 380px;
-    height: 380px;
+    width: 500px;
+    height: 500px;
     background-image: url(../images/Microsoft.VisualStudio.Services.Icons.ico);
-    background-size: 380px 380px;
+    background-size: 500px 500px;
+}
+
+@media screen and (max-width: 600px) {
+    .hogwarts {
+        width: 500px;
+        height: 500px;
+        background-image: url(../images/Microsoft.VisualStudio.Services.Icons.ico);
+        background-size: 500px 500px;
+    }
 }
