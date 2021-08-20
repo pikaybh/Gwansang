@@ -11,7 +11,7 @@
 
 <!-- Use any element to open the sidenav -->
 <header>
-    <span class="logo"><a class="logo_text" href="/">Gwansang</a></span>
+    <span class="logo"><a class="logo_text" href="/">GwanSimAI</a></span>
     <span class="nav_btn material-icons" onclick="openNav()">menu</span>
 </header>
 
