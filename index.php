@@ -23,7 +23,7 @@
         <section>
           <a href="./hogwarts/">
             <div class="hogwarts" id="hogwarts"></div>
-            <?php include './list.php';
+            <?php include './include/list.inc.php';
             echo 
             $hogwartsTitle . 
             $hogwartsSubtitle;

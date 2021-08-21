@@ -24,7 +24,7 @@
     <article>
         <div class="calousel"></div>
         <div class="title">
-            <?php include '../list.php';
+            <?php include '../include/list.inc.php';
             echo 
             $hogwartsTitle . 
             $hogwartsSubtitle;

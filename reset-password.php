@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI 관상 | 로그인</title>
+    <title>AI 관상 | 비밀번호 재설정</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/homepage.css">
@@ -18,19 +18,17 @@
 
     <!--article-->
     <article class="homepage-article">
-        <section>
-            <h2>Log In</h2>
-            <form action="./include/login.inc.php" method="post">
-                <input type="text" name="uid" placeholder="Username/Email...">
-                <input type="password" name="pwd" placeholder="Password...">
-                <button type="submit" name="submit">Log In</button>
+        <section class="signup-form">
+            <h2>Reset your password</h2>
+            <p>An e-mail will be send to you with instructions on how to reset your password.</p>
+            <form action="./include/reset-request.inc.php" method="post">
+                <input type="text" name="email" placeholder="Enter your e-mail address...">
+                <button type="submit" name="reset-request-submit">Receive new password by e-mail</button>
             </form>
             <?php
-                if(isset($_GET["error"])) {
-                    if ($_GET["error"] == "emptyinput") {
-                        echo "<p>Fill in all fields!</p>";
-                    } else if ($_GET["error"] == "wronglogin") {
-                        echo "<p>Incorrect login information!</p>";
+                if (isset($_GET["reset"])) {
+                    if($_GET["reset"] == "success") {
+                        echo '<p class="signupsuccess">Check your e-mail</p>';
                     }
                 }
             ?>
