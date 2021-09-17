@@ -50,6 +50,7 @@ section {
 @media screen and (max-width: 600px) {
     .li-art {
         display: inline;
+        max-width: 550px;
     }
 }
 
