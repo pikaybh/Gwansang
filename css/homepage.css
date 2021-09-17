@@ -13,7 +13,7 @@ a {
 
 section {
     border-radius: 25px;
-    height: 300px;
+    height: 325px;
     width: 500px;
     background-color: seashell;
 }
@@ -25,24 +25,30 @@ section {
 }
 
 @media screen and (max-width: 600px) {
+    .homepage-li {
+        display: flex;
+        margin: 0;
+    }
+
     section {
         border-radius: 0;
         border: none; 
-        padding: 10px;
+        padding: 0;
         height: auto;
-        max-width: 300px;
+        max-width: 350px;
         background-color: white;
     }
     
     .divline {
         background: #e6e6e6;
-        max-width: 300px;
+        max-width: 350px;
     }
 }
 
 .li-art {
     display: flex;
     justify-content: center;
+    align-content: center;
     flex-wrap: wrap;
 
 }
@@ -51,6 +57,7 @@ section {
     .li-art {
         display: inline;
         max-width: 550px;
+        margin: 0;
     }
 }
 
@@ -78,15 +85,16 @@ ul {
 @media screen and (max-width: 600px) {
     .testPic {
         border-radius: 0;
-        max-width: 300px;
+        max-width: 350px;
         height: 260px;
+        margin: 0;
         background-color: brown;
-        background-size: 300px 260px;
+        background-size: 350px 260px;
     }
     
     .testTitle {
         margin: 3px 0 0 0;
-        max-width: 300px;
+        max-width: 350px;
     }
 }
 
