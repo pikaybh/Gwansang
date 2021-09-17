@@ -28,7 +28,9 @@ section {
     section {
         border-radius: 0;
         border: none; 
-        padding: 0;
+        padding: 10px;
+        height: auto;
+        max-width: 100%;
         background-color: white;
     }
     
@@ -47,7 +49,7 @@ section {
 @media screen and (max-width: 600px) {
     .li-art {
         display: inline;
-        max-width: 100%;
+        max-width: 550px;
     }
 }
 
@@ -75,10 +77,10 @@ ul {
 @media screen and (max-width: 600px) {
     .testPic {
         border-radius: 0;
-        max-width: 100%;
+        max-width: 300px;
         height: 260px;
         background-color: brown;
-        background-size: 500px 260px;
+        background-size: 300px 260px;
     }
     
     .testTitle {
