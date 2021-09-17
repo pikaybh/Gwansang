@@ -36,6 +36,7 @@ section {
     
     .divline {
         background: #e6e6e6;
+        max-width: 300px;
     }
 }
 
