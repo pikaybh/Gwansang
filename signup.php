@@ -19,14 +19,14 @@
     <!--article-->
     <article class="homepage-article">
         <section class="signup-form">
-            <h2>Sign Up</h2>
+            <h2>회원가입</h2>
             <form action="./includes/signup.inc.php" method="post">
-                <input type="text" name="name" placeholder="Full name...">
-                <input type="text" name="email" placeholder="Email...">
-                <input type="text" name="uid" placeholder="Username...">
-                <input type="password" name="pwd" placeholder="Password...">
-                <input type="password" name="pwdrepeat" placeholder="Repeat Password...">
-                <button type="submit" name="submit">Sign Up</button>
+                <input class="text-in" type="text" name="name" placeholder="성함">
+                <input class="text-in" type="text" name="email" placeholder="Email">
+                <input class="text-in" type="text" name="uid" placeholder="아이디">
+                <input class="text-in" type="password" name="pwd" placeholder="비밀번호">
+                <input class="text-in" type="password" name="pwdrepeat" placeholder="비밀번호 확인"><br>
+                <button type="submit" name="submit">가입하기</button>
             </form>
             <?php
                 if(isset($_GET["error"])) {
@@ -62,7 +62,6 @@
                     }
                 }
             ?>
-            <a href="./reset-password.php">비밀번호를 잊으셨나요?</a>
         </section>
     </article>
 

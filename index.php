@@ -22,6 +22,9 @@
     <!--article-->
     <article>
         <ul class="li-art">
+            <li>
+                <div class="divline"></div>
+            </li>
             <!--호그와트 기숙사 테스트-->
             <li class="homepage-li">
                 <section>
@@ -82,9 +85,6 @@
                         </a>
                     </form>
                 </section>
-            </li>
-            <li>
-                <div class="divline"></div>
             </li>
         </ul>
     </article>

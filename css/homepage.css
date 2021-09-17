@@ -35,13 +35,13 @@ section {
         border: none; 
         padding: 0;
         height: auto;
-        max-width: 350px;
+        max-width: 355px;
         background-color: white;
     }
     
     .divline {
         background: #e6e6e6;
-        max-width: 350px;
+        max-width: 355px;
     }
 }
 
@@ -85,16 +85,16 @@ ul {
 @media screen and (max-width: 600px) {
     .testPic {
         border-radius: 0;
-        max-width: 350px;
+        max-width: 355px;
         height: 260px;
         margin: 0;
         background-color: brown;
-        background-size: 350px 260px;
+        background-size: 355px 260px;
     }
     
     .testTitle {
-        margin: 3px 0 0 0;
-        max-width: 350px;
+        padding: 1.5px 0 0 0;
+        max-width: 355px;
     }
 }
 

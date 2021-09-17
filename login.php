@@ -19,11 +19,11 @@
     <!--article-->
     <article class="homepage-article">
         <section>
-            <h2>Log In</h2>
+            <h2>로그인</h2>
             <form action="./includes/login.inc.php" method="post">
-                <input type="text" name="uid" placeholder="Username/Email...">
-                <input type="password" name="pwd" placeholder="Password...">
-                <button type="submit" name="submit">Log In</button>
+                <input class="text-in" type="text" name="uid" placeholder="ID 또는 Email">
+                <input class="text-in" type="password" name="pwd" placeholder="비밀번호">
+                <button type="submit" name="submit">로그인</button>
             </form>
             <?php
                 if(isset($_GET["error"])) {
@@ -34,6 +34,8 @@
                     }
                 }
             ?>
+            <a href="./reset-password.php">비밀번호를 잊으셨나요?</a><br>
+            <a href="./signup.php">아직 회원이 아니신가요?</a>
         </section>
     </article>
 
