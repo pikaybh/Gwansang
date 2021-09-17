@@ -120,6 +120,12 @@ article {
     position: relative;
 }
 
+@media screen and (max-width: 600px) {
+    article {
+        max-width: 100%;
+    }
+}
+
 h3 {
     color: black;
 }
