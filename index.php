@@ -31,9 +31,11 @@
                     <form id="testLink" action="./includes/tests.inc.php" method="post">
                         <input type="hidden" name="AItest" value="theSortingHat" />
                         <a href="javascript:void(0)" class="testList" onclick="document.getElementById('testLink').submit();">
-                            <div class="testPic"></div>
-                            <h3 class="testTitle">호그와트 기숙사 배정 테스트</h3>
-                            <h4 class="testTitle">AI 분류모자가 당신의 관상으로 정해주는 기숙사!👓⚡🧹</h4>
+                            <div>
+                                <div class="testPic"></div>
+                                <h3 class="testTitle">호그와트 기숙사 배정 테스트</h3>
+                                <h4 class="testTitle">AI 분류모자가 당신의 관상으로 정해주는 기숙사!👓⚡🧹</h4>
+                            </div>
                         </a>
                     </form>
                 </section>
@@ -47,9 +49,11 @@
                     <form id="testLink1" action="./includes/tests.inc.php" method="post">
                         <input type="hidden" name="AItest" value="fruitFace" />
                         <a href="javascript:void(0)" class="testList" onclick="document.getElementById('testLink1').submit();">
-                            <div class="testPic"></div>
-                            <h3 class="testTitle">과즙상 테스트</h3>
-                            <h4 class="testTitle">AI가 알려주는 당신의 과즙상!🍎</h4>
+                            <div>
+                                <div class="testPic"></div>
+                                <h3 class="testTitle">과즙상 테스트</h3>
+                                <h4 class="testTitle">AI가 알려주는 당신의 과즙상!🍎</h4>
+                            </div>
                         </a>
                     </form>
                 </section>
@@ -63,9 +67,11 @@
                     <form id="testLink2" action="./includes/tests.inc.php" method="post">
                         <input type="hidden" name="AItest" value="firstImpression" />
                         <a href="javascript:void(0)" class="testList" onclick="document.getElementById('testLink2').submit();">
-                            <div class="testPic"></div>
-                            <h3 class="testTitle">첫인상 테스트</h3>
-                            <h4 class="testTitle">AI가 알려주는 당신의 첫인상!👩🧑</h4>
+                            <div>
+                                <div class="testPic"></div>
+                                <h3 class="testTitle">첫인상 테스트</h3>
+                                <h4 class="testTitle">AI가 알려주는 당신의 첫인상!👩🧑</h4>
+                            </div>
                         </a>
                     </form>
                 </section>
@@ -79,9 +85,11 @@
                     <form id="testLink3" action="./includes/tests.inc.php" method="post">
                         <input type="hidden" name="AItest" value="firstImpression" />
                         <a href="javascript:void(0)" class="testList" onclick="document.getElementById('testLink3').submit();">
-                            <div class="testPic"></div>
-                            <h3 class="testTitle">동물상 테스트</h3>
-                            <h4 class="testTitle">AI가 알려주는 당신의 동물상!🐶🐱</h4>
+                            <div>
+                                <div class="testPic"></div>
+                                <h3 class="testTitle">동물상 테스트</h3>
+                                <h4 class="testTitle">AI가 알려주는 당신의 동물상!🐶🐱</h4> 
+                            </div>
                         </a>
                     </form>
                 </section>
