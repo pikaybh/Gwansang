@@ -93,7 +93,7 @@ ul {
     }
     
     .testTitle {
-        margin: 1.5px 0 0 0;
+        margin: 1.5px 0 0 1px;
         max-width: 100vw;
     }
 }
