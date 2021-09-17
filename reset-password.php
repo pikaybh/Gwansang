@@ -14,14 +14,14 @@
 
 <body>
     <!--navbar-->
-    <?php require_once('navbar.php'); ?>
+    <?php require_once('header.php'); ?>
 
     <!--article-->
     <article class="homepage-article">
         <section class="signup-form">
             <h2>Reset your password</h2>
             <p>An e-mail will be send to you with instructions on how to reset your password.</p>
-            <form action="./include/reset-request.inc.php" method="post">
+            <form action="./includes/reset-request.inc.php" method="post">
                 <input type="text" name="email" placeholder="Enter your e-mail address...">
                 <button type="submit" name="reset-request-submit">Receive new password by e-mail</button>
             </form>

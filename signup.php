@@ -14,13 +14,13 @@
 
 <body>
     <!--navbar-->
-    <?php require_once('navbar.php'); ?>
+    <?php require_once('header.php'); ?>
 
     <!--article-->
     <article class="homepage-article">
         <section class="signup-form">
             <h2>Sign Up</h2>
-            <form action="./include/signup.inc.php" method="post">
+            <form action="./includes/signup.inc.php" method="post">
                 <input type="text" name="name" placeholder="Full name...">
                 <input type="text" name="email" placeholder="Email...">
                 <input type="text" name="uid" placeholder="Username...">

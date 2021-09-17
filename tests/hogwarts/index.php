@@ -1,3 +1,8 @@
+<?php
+
+    include '../../includes/autoloader.inc.php'
+?>
+
 <!DOCTYPE html>
 <html lang="ko">
 
@@ -6,11 +11,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI 관상 | 호그와트 기숙사 테스트</title>
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/hogwarts.css">
-    <script defer src="../js/main.js"></script>
-    <script defer src="../js/hogwarts.js"></script>
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/hogwarts.css">
+    <script defer src="../../js/main.js"></script>
+    <script defer src="../../js/hogwarts.js"></script>
     <script defer class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
@@ -18,17 +23,14 @@
 
 <body>
     <!--navbar-->
-    <?php require_once('../navbar.php'); ?>
+    <?php require_once('../../header.php'); ?>
 
     <!--article-->
     <article>
         <div class="calousel"></div>
         <div class="title">
-            <?php include '../include/list.inc.php';
-            echo 
-            $hogwartsTitle . 
-            $hogwartsSubtitle;
-            ?>
+            <h4>호그와트 기숙사 배정 테스트</h4>
+            <h5>AI 분류모자가 당신의 관상으로 정해주는 기숙사!</h5>
         </div>
         <section class="hogwarts">
             <div class="file-upload">
@@ -50,7 +52,7 @@
                 // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
                 // the link to your model provided by Teachable Machine export panel
-                const URL = "./model/";
+                const URL = "../model/hogwarts/";
 
                 let model, webcam, labelContainer, maxPredictions;
 
@@ -101,7 +103,7 @@
     </article>
 
     <!--footer-->
-    <?php require_once('../footer.php'); ?>
+    <?php require_once('../../footer.php'); ?>
 
 </body>
 
