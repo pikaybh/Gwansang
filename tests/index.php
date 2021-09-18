@@ -35,10 +35,13 @@
     <?php
         echo $testClass->switch;
     ?>
+    <script defer src="../js/faceDetect.js" type="text/javascript"></script>
     <script defer src="../js/main.js"></script>
+    <script defer src="../js/utils.js"></script>
     <script defer class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    <script defer src="https://docs.opencv.org/4.5.3/opencv.js" onload="onOpenCvReady();" type="text/javascript"></script>
 </head>
 <body>
     <!--navbar-->
@@ -73,6 +76,11 @@
                         <div class="loading" id="loadingP">AI가 분석 중입니다...</div>
                         <div class="loader"></div>
                         <div id="analTitle"></div>
+                        <div class="analImg">
+                            <canvas class="hiddenImg" id="matGrayImg"></canvas>
+                            <canvas class="hiddenImg" id="matRoiImg"></canvas>
+                            <canvas class="hiddenImg" id="roiImg"></canvas>
+                        </div>
                         <div id="label-container"></div>
                     </div>
                     <button type="button" class="try-again-btn" onclick="location.replace(location.href)">
