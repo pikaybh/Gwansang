@@ -64,27 +64,27 @@ async function predict() {
             case "gryffindor":
                 resultTitle = "인싸 그리핀도르"
                 resultExplain = "다정다감하고 귀여운 당신은 모든 사람들에게 즐거움을 주는 호감형이다! 친절하고 활발한 성격으로 어디에서도 인기폭발이며 애교와 웃음이 많아 연인에게 특히나 사랑스럽다. 당신은 애인바라기로 애인의 관심이 부족하면 시무룩해지고 외로움을 타는 모습이 마치 강아지와 똑 닮았다!"
-                resultCeleb = "강아지상 연예인: 강다니엘, 백현(엑소), 박보검, 송중기"
+                resultCeleb = "학습 데이터: 알버스 덤블도어, 위즐리 형제, 빌 위즐리, 찰리 위즐리, 콜린 크리비, 코맥 맥클래건, 해리 포터⚡, 헤르미온느 그레인저, 론 위즐리, 지니 위즐리, 제임스 포터 등등...<br>총 25명"
                 break;
             case "slytherin":
                 resultTitle = "츤데레 매력쟁이 슬리더린"
                 resultExplain = "무뚝뚝한 당신의 첫인상은 차가워 보이지만 묘한 매력을 풍겨 언제나 인기가 넘친다. 자존심이 세계 1등과 맞먹지만 관심 받는 것을 좋아하고 연인에게는 은근히 애교쟁이다. 시크한 츤데레로 연인에게 끊임없이 설렘을 안겨주는 당신은 고양이와 닮았다!"
-                resultCeleb = "고양이상 연예인: 황민현(뉴이스트), 시우민(엑소), 강동원, 이종석, 이준기"
+                resultCeleb = "학습 데이터: 알버스 포터, 드레이코 말포이, 등등...<br>총 20명"
                 break;
             case "hufflepuff":
                 resultTitle = "천진난만한 매력의 후뿌뿌뿌"
                 resultExplain = "천진난만하고 귀여운 당신은 주변 사람들에게 기쁨을 주는 행복바이러스다! 호기심이 많아 활발하며 귀엽고 순수한 외모로 연인의 보호본능을 자극한다. 존재 자체가 상큼한 당신은 특별한 애교 없이도 연인에게 너무나도 사랑스럽다!"
-                resultCeleb = "토끼상 연예인: 정국(방탄소년단), 바비(아이콘), 박지훈(워너원), 수호(엑소)"
+                resultCeleb = "학습 데이터: 수산 본즈 등등..."
                 break;
             case "ravenclaw":
                 resultTitle = "무심한 레빈클로우"
                 resultExplain = "무심한 성격에 첫인상은 나쁜 남자 같지만, 알고 보면 따뜻함이 묻어나는 당신! 시크한 매력에 선뜻 다가가지 못하지만 한번 다가가면 헤어나올 수 없는 터프한 매력을 가진 카리스마 있는 남자다."
-                resultCeleb = "공룡상 연예인: 윤두준(하이라이트), 이민기, 김우빈, 육성재(비투비), 공유"
+                resultCeleb = "학습 데이터: 초 챙, 루나 러브굿 등등..."
                 break;
             default:
                 resultTitle = "당신은 혹시 머글?"
-                resultExplain = ""
-                resultCeleb = ""
+                resultExplain = "AI가 당신의 기숙사를 찾을 수 없습니다! 얼굴이 잘 나온 사진을 사용하면 더 알맞은 데이터를 얻을 수 있습니다."
+                resultCeleb = "학습 데이터: 없음"
         }
 
         var title = "<div class='resultContents'><h3 class='resultTitle " + prediction[0].className + "'>" + resultTitle + "</h3>"
