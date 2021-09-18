@@ -179,19 +179,19 @@ h4 {
 }
 
 .gryffindor {
-    color: brown;
+    color: #7F0909;
 }
 
 .slytherin {
-    color: green;
+    color: #0D6217;
 }
 
 .hufflepuff {
-    color: yellow;
+    color: #EEE117;
 }
 
 .ravenclaw {
-    color: blue;
+    color: #000A90;
 }
 
 #label-container {

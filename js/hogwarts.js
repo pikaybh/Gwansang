@@ -52,19 +52,19 @@ async function predict() {
             barWidth = Math.round(prediction[i].probability.toFixed(2) * 100) + '%';
             switch (prediction[i].className) {
                 case "gryffindor":
-                    resultLabel = "그리핀도르"
+                    resultLabel = "𝓖𝓻𝔂𝓯𝓯𝓲𝓷𝓭𝓸𝓻"
                     break;
                 case "slytherin":
-                    resultLabel = "슬리더린"
+                    resultLabel = "𝓢𝓵𝔂𝓽𝓱𝓮𝓻𝓲𝓷"
                     break;
                 case "hufflepuff":
-                    resultLabel = "후플푸프"
+                    resultLabel = "𝓗𝓾𝓯𝓯𝓵𝓮𝓹𝓾𝓯𝓯"
                     break;
                 case "ravenclaw":
-                    resultLabel = "레빈클로우"
+                    resultLabel = "𝓡𝓪𝓿𝓮𝓷𝓬𝓵𝓪𝔀"
                     break;
                 default:
-                    resultLabel = "알 수 없음"
+                    resultLabel = "𝓜𝓾𝓰𝓰𝓵𝓮"
             }
     
             switch (prediction[0].className) {
