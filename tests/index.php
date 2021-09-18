@@ -72,13 +72,15 @@
                 <div class="image-upload-wrap">
                     <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
                 </div>
+                <div class="loadingDiv">
+                    <div class="loading" id="loadingP">AI가 분석 중입니다...</div>
+                    <div class="loader"></div>
+                </div>
                 <div class="file-upload-content">
                     <div id="identity"></div>
                     <img class="file-upload-image" id="face-image" src="#" alt="your image" />
                     <div id="contents"></div>
                     <div class="sumAnal">
-                        <div class="loading" id="loadingP">AI가 분석 중입니다...</div>
-                        <div class="loader"></div>
                         <div id="analTitle"></div>
                         <div class="analImg">
                             <canvas class="hiddenImg" id="matGrayImg"></canvas>

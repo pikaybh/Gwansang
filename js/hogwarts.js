@@ -18,8 +18,6 @@ async function init() {
     // Note: the pose library adds 'tmImage' object to your window (window.tmImage)
     model = await tmImage.load(modelURL, metadataURL);
     maxPredictions = model.getTotalClasses();
-    $('.loader').hide();
-    $('.loading').hide();
     labelContainer = document.getElementById('label-container');
     for (let i = 0; i < maxPredictions; i++) { // and class labels
         labelContainer.appendChild(document.createElement('div'));
@@ -29,6 +27,9 @@ async function init() {
 
 // run the webcam image through the image model
 async function predict() {
+    $('.loader').hide();
+    $('.loading').hide();
+    $('.file-upload-content').show();
     if (faces.size() < 1) {
         var resultError = "<h3 class='result-graph'>얼굴을 찾을 수 없습니다!</h3><p><b>얼굴이 잘 나오게 다시 찍어주세요!</b><br><i>특히, 눈, 코, 입이 잘 나와야 합니다.</i></p>"
         document.getElementById("analTitle").innerHTML = resultError;
