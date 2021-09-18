@@ -89,7 +89,7 @@
             <h3>참여자수</h3>
         </div>
         <div class="share">
-            <h4>테스트 공유하기</h4>
+            <h4 class="share-title">테스트 공유하기</h4>
             <div class="share-cont">
                 <!--kakaoTalk-->
                 <a class="share-btn" href="#">
