@@ -34,6 +34,13 @@ hr {
     display: none;
 }
 
+ul {
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    padding: 0px;
+}
+
 /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */

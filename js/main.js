@@ -22,16 +22,33 @@ function readURL(input) {
 
         reader.onload = function (e) {
             $('.image-upload-wrap').hide();
-
             $('.file-upload-image').attr('src', e.target.result);
             $('.file-upload-content').show();
         };
 
-            reader.readAsDataURL(input.files[0]);
-            init().then(() => {
-                predict();
-            });
-        } else {
-            removeUpload();
-        }
+        reader.readAsDataURL(input.files[0]);
+        init().then(() => {
+            predict();
+        });
+    } else {
+        removeUpload();
     }
+}
+
+/* copy url */
+function copyurl() {
+    console.log("start");
+    var url = '';
+    url = window.document.location.href;
+    var textarea = document.createElement("textarea");
+    document.body.appendChild(textarea);
+    textarea.value = url;
+    console.log("somethin");
+    textarea.select();
+    console.log("selected");
+    document.execCommand("copy");
+    //window.clipboardData.setData("Text", textarea);
+    document.body.removeChild(textarea);
+    console.log("copied");
+    alert("링크가 복사되었습니다.")
+}

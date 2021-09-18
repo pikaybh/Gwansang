@@ -31,7 +31,7 @@
                     } else{
                         echo "<li><p>현재 로그아웃 상태입니다.</br>로그인을 하시거나, 비회원이시라면 회원가입을 해주세요.</p></li>";
                         echo "<li><a href='./signup.php'>Sign up</a></li>";
-                        echo "<li><a href='./login.php'>Log in</a></li>";
+                        echo "<li><a href='./login.php'>로그아웃</a></li>";
                     }
                 ?>
             </ul>  

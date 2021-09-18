@@ -61,13 +61,6 @@ section {
     }
 }
 
-ul {
-    list-style: none;
-    list-style-position: initial;
-    list-style-image: initial;
-    padding: 0px;
-}
-
 .testPic {
     border-radius: 15px;
     width: 480px;
