@@ -36,6 +36,8 @@ function onOpenCvReady() {
         utils.createFileFromUrl(faceCascadeFile, faceCascadeFile, () => {
             classifier.load(faceCascadeFile); // in the callback, load the cascade from file 
             console.log("openCV ready!");
+            $('.loadingOpenCV').hide();
+            $('.image-upload-wrap').show();
         });
     }
 }

@@ -65,6 +65,7 @@
                 </label>
             </div>
             <div class="file-upload">
+                <h3 class="loadingOpenCV">AI를 준비 중입니다...</h3>
                 <div class="image-upload-wrap">
                     <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
                 </div>

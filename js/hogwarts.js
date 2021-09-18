@@ -9,8 +9,8 @@ let model, webcam, labelContainer, maxPredictions;
 async function init() {
     const modelURL = URL + 'model.json';
     const metadataURL = URL + 'metadata.json';
-    $('.loader').removeClass('hide-loader');
-    $('.loading').removeClass('hide-loader');
+    $('.loader').show();
+    $('.loading').show();
 
     // load the model and metadata
     // Refer to tmImage.loadFromFiles() in the API to support files from a file picker
@@ -18,8 +18,8 @@ async function init() {
     // Note: the pose library adds 'tmImage' object to your window (window.tmImage)
     model = await tmImage.load(modelURL, metadataURL);
     maxPredictions = model.getTotalClasses();
-    $('.loader').addClass('hide-loader');
-    $('.loading').addClass('hide-loader');
+    $('.loader').hide();
+    $('.loading').hide();
     labelContainer = document.getElementById('label-container');
     for (let i = 0; i < maxPredictions; i++) { // and class labels
         labelContainer.appendChild(document.createElement('div'));

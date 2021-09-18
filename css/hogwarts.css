@@ -103,10 +103,6 @@ h4 {
     100% { transform: rotate(360deg); }
 }
 
-.hide-loader{
-    display:none;
-}
-
 #loadingP {
     color: gray;
     margin: 30px 0 30px 0;
@@ -129,6 +125,7 @@ h4 {
 }
 
 .image-upload-wrap {
+    display: none;
     border: 2px dashed hotpink;
     border-radius: 50px;
     background-color: pink;
