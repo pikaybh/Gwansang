@@ -66,8 +66,13 @@ h4 {
 }
 
 .file-upload-image {
+    margin: auto;
+    border-radius: 50%;
     max-height: 500px;
     max-width: 500px;
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
     margin: auto;
 }
 
