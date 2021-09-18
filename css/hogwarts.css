@@ -100,12 +100,12 @@ h4 {
 
 #loadingP {
     color: gray;
-    margin-top: 30px;
+    margin: 30px 0 30px 0;
 }
 
 @media screen and (max-width:600px) {
     #loadingP {
-        margin-top: 23px;
+        margin: 23px 0 23px 0;
     }
     
 }
