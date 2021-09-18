@@ -80,7 +80,7 @@
                 echo $testClass->script;
             ?>
         </section>
-        <p class="notice">※테스트에 사용된 이미지는 그 어디에도 업로드 되지 않습니다※</p>
+        <p class="notice">※테스트에 사용한 이미지는 업로드 되지 않습니다※</p>
         <div class="numPeople">
             <h3>참여자수</h3>
         </div>
