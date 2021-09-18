@@ -119,6 +119,7 @@ h4 {
 
 .loadingOpenCV {
     display: flex;
+    border: 2px solid white;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
