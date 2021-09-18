@@ -76,7 +76,7 @@ async function predict() {
                     resultCeleb = "학습 데이터: <i>알버스 덤블도어, 위즐리 형제, 빌 위즐리, 찰리 위즐리, 콜린 크리비, 코맥 맥클래건, ⚡해리 포터, 헤르미온느 그레인저, 론 위즐리, 지니 위즐리, 제임스 포터</i> 등등...<br>총 25명"
                     break;
                 case "slytherin":
-                    resultTitle = "츤데레 매력쟁이 슬리더린"
+                    resultTitle = "츤데레 매력쟁이 슬리데린"
                     resultExplain = "무뚝뚝한 당신의 첫인상은 차가워 보이지만 묘한 매력을 풍겨 언제나 인기가 넘친다. 자존심이 세계 1등과 맞먹지만 관심 받는 것을 좋아하고 연인에게는 은근히 애교쟁이다. 시크한 츤데레로 연인에게 끊임없이 설렘을 안겨주는 당신은 고양이와 닮았다!"
                     resultCeleb = "학습 데이터: <i>알버스 포터, 드레이코 말포이,</i> 등등...<br>총 20명"
                     break;
@@ -86,7 +86,7 @@ async function predict() {
                     resultCeleb = "학습 데이터: <i>수산 본즈</i> 등등..."
                     break;
                 case "ravenclaw":
-                    resultTitle = "무심한 레빈클로우"
+                    resultTitle = "무심한 래번클로"
                     resultExplain = "무심한 성격에 첫인상은 나쁜 남자 같지만, 알고 보면 따뜻함이 묻어나는 당신! 시크한 매력에 선뜻 다가가지 못하지만 한번 다가가면 헤어나올 수 없는 터프한 매력을 가진 카리스마 있는 남자다."
                     resultCeleb = "학습 데이터: <i>초 챙, 루나 러브굿</i> 등등..."
                     break;
