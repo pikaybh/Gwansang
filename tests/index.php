@@ -71,6 +71,7 @@
                     <div id="contents"></div>
                     <div class="loader"></div>
                     <div class="sumAnal">
+                        <div class="loading" id="loadingP">AI가 분석 중입니다...</div>
                         <div id="analTitle"></div>
                         <div id="label-container"></div>
                     </div>

@@ -100,6 +100,18 @@ h4 {
     display:none;
 }
 
+#loadingP {
+    color: gray;
+    margin-top: 30px;
+}
+
+@media screen and (max-width:600px) {
+    #loadingP {
+        margin-top: 23px;
+    }
+    
+}
+
 .try-again-btn {
     cursor: pointer;
     border-radius: 20px;
@@ -152,7 +164,7 @@ h4 {
 }
 
 .result-graph {
-    margin: 0;
+    margin: 4px 0 0 0;
 }
 
 .resultTitle {
@@ -302,6 +314,7 @@ h4 {
     .percent-text {
         color: #FFFFFF;
         font-size: inherit;
+        top: 0;
     }
 }
 
@@ -318,7 +331,7 @@ h4 {
 @media screen and (max-width:600px) {
     .sumAnal {
         max-width: 320px;
-        padding-bottom: 4px;
+        padding-bottom: 0;
     }
 }
 

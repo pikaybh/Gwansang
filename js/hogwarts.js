@@ -10,6 +10,7 @@ async function init() {
     const modelURL = URL + 'model.json';
     const metadataURL = URL + 'metadata.json';
     $('.loader').removeClass('hide-loader');
+    $('.loading').removeClass('hide-loader');
 
     // load the model and metadata
     // Refer to tmImage.loadFromFiles() in the API to support files from a file picker
@@ -18,6 +19,7 @@ async function init() {
     model = await tmImage.load(modelURL, metadataURL);
     maxPredictions = model.getTotalClasses();
     $('.loader').addClass('hide-loader');
+    $('.loading').addClass('hide-loader');
     labelContainer = document.getElementById('label-container');
     for (let i = 0; i < maxPredictions; i++) { // and class labels
         labelContainer.appendChild(document.createElement('div'));
@@ -106,7 +108,6 @@ async function predict() {
             var bar = "<div class='" + prediction[i].className + "-bar-container bar-container'><div class='" + prediction[i].className + "-bar-box'></div><div class=' " + prediction[i].className + "-bar bar' style='width: " + barWidth + "'><span class='d-block percent-text'>" + Math.round(prediction[i].probability.toFixed(2) * 100) + "%</span></div></div>";
             var analysis ="<div class='anal'>" +  label + bar + "</div>"
             labelContainer.childNodes[i].innerHTML = analysis;
-            console.log(typeof resultLabel);
         }
     }
 }
