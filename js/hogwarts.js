@@ -91,7 +91,8 @@ async function predict() {
         var explain = "<p class='resultExplain " + prediction[0].className + "'>" + resultExplain + "</p>"
         var celeb = "<p class='resultCeleb " + prediction[0].className + "'>" + resultCeleb + "</P></div><br>"
         var resultGraph = "<h3 class='result-graph'>분석결과 : </h3>"
-        document.getElementById("contents").innerHTML = title + explain + celeb + resultGraph;
+        document.getElementById("identity").innerHTML = title
+        document.getElementById("contents").innerHTML = explain + celeb + resultGraph;
 
         var label = "<h3 class=' bar-title " + prediction[i].className + "'>" + resultLabel + "</h3>";
         var bar = "<div class='" + prediction[i].className + "-bar-container'><div class='" + prediction[i].className + "-bar-box'></div><div class=' " + prediction[i].className + "-bar' style='width: " + barWidth + "'><span class='d-block percent-text'>" + Math.round(prediction[i].probability.toFixed(2) * 100) + "%</span></div></div>";

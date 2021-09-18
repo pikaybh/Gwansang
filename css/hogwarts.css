@@ -1,5 +1,5 @@
 h1 {
-    font-size: 80px;
+    font-size: 72px;
 }
 
 h2 {
@@ -19,20 +19,20 @@ h4 {
 
 @media screen and (max-width:900px) {
     h1 {
-        font-size: 50px;
+        font-size: 36px;
     }
     
     h2 {
-        font-size: 32px;
+        font-size: 28px;
         color: gray;
     }
 
     h3 {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     h4 {
-        font-size: 24px;
+        font-size: 22px;
     }
 }
 

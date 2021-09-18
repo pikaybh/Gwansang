@@ -66,6 +66,7 @@
                     <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
                 </div>
                 <div class="file-upload-content">
+                    <div id="identity"></div>
                     <img class="file-upload-image" id="face-image" src="#" alt="your image" />
                     <div id="contents"></div>
                     <div class="loader"></div>
