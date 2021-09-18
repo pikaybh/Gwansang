@@ -100,7 +100,7 @@
         </section>
         <p class="notice">※테스트에 사용한 이미지는 업로드 되지 않습니다※</p>
         <div class="numPeople">
-            <h3>참여자수</h3>
+            <h3>참여자 수</h3>
         </div>
         <div class="share">
             <h4 class="share-title">테스트 공유하기</h4>

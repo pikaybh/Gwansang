@@ -32,7 +32,7 @@ async function predict() {
     $('.file-upload-content').show();
     if (faces.size() < 1) {
         var resultError = "<h3 class='resultTitle'>얼굴을 찾을 수 없습니다!</h3>"
-        var resultErrorText = "<p class='resultExplain'><b>※얼굴이 잘 나오게 다시 찍어주세요!※</b><br><i>특히, 눈, 코, 입이 잘 나와야 합니다.</i></p><style type='text/css'>.sumAnal{display:none;} .resultExplain{max-width: 100%;}</st>"
+        var resultErrorText = "<p class='resultExplain'><b>※얼굴이 잘 나오게 다시 찍어주세요!※</b><br><i>특히, 눈, 코, 입이 잘 나와야 합니다.</i></p><style type='text/css'>.sumAnal{display:none;} .resultExplain{max-width: 100%; padding-bottom: 6px;}</st>"
         document.getElementById("identity").innerHTML = resultError;
         document.getElementById("contents").innerHTML = resultErrorText;
     } else {
