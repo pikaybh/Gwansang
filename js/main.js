@@ -37,18 +37,13 @@ function readURL(input) {
 
 /* copy url */
 function copyurl() {
-    console.log("start");
-    var url = '';
-    url = window.document.location.href;
+    var url = window.document.location.href;
     var textarea = document.createElement("textarea");
     document.body.appendChild(textarea);
     textarea.value = url;
-    console.log("somethin");
     textarea.select();
-    console.log("selected");
     document.execCommand("copy");
-    //window.clipboardData.setData("Text", textarea);
     document.body.removeChild(textarea);
-    console.log("copied");
+    console.log("copied a link url");
     alert("링크가 복사되었습니다.")
 }
