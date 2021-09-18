@@ -167,6 +167,11 @@ h4 {
     font-size: 30px;
 }
 
+.resultCeleb {
+    max-width: 66%;
+    margin: auto;
+}
+
 @media screen and (max-width:600px) {
     .resultTitle {
         font-size: 32px;
@@ -198,109 +203,105 @@ h4 {
     margin-bottom: 20px;
 }
 
+.bar-container {
+    border-radius: 25px;
+    width: 80%;
+    height: 50px;
+    margin: auto;
+}
+
+.bar {
+    height: 50px;
+    border-radius: 25px;
+    align-items: center;
+}
+
 .gryffindor-bar-container {
     background-color: #FFC500;
-    border-radius: 10px;
-    width: 500px;
-    margin: auto;
 }
 
 .gryffindor-bar {
     background-color: #7F0909;
-    border-radius: 10px;
 }
 
 .slytherin-bar-container {
     background-color: #AAAAAA;
-    border-radius: 10px;
-    width: 500px;
-    margin: auto;
 }
 
 .slytherin-bar {
     background-color: #0D6217;
-    border-radius: 10px;
 }
 
 .hufflepuff-bar-container {
     background-color: #000000;
-    border-radius: 10px;
-    width: 500px;
-    margin: auto;
 }
 
 .hufflepuff-bar {
     background-color: #EEE117;
-    border-radius: 10px;
 }
 
 .ravenclaw-bar-container {
     background-color: #946B2D;
-    border-radius: 10px;
-    width: 500px;
-    margin: auto;
 }
 
 .ravenclaw-bar {
     background-color: #000A90;
-    border-radius: 10px;
 }
 
 .percent-text {
     color: #FFFFFF;
+    font-size: 32px;
+    top: 40%;
 }
 
 @media screen and (max-width: 600px) {
-    .gryffindor-bar-container {
-        background-color: #FFC500;
+    .bar-container {
         border-radius: 10px;
         width: 300px;
+        height: 20px;
         margin: auto;
+    }
+    
+    .bar {
+        height: 20px;
+        border-radius: 10px;
+    }
+    
+    .gryffindor-bar-container {
+        background-color: #FFC500;
     }
 
     .gryffindor-bar {
         background-color: #7F0909;
-        border-radius: 10px;
     }
 
     .slytherin-bar-container {
         background-color: #AAAAAA;
-        border-radius: 10px;
-        width: 300px;
-        margin: auto;
     }
 
     .slytherin-bar {
         background-color: #0D6217;
-        border-radius: 10px;
     }
 
     .hufflepuff-bar-container {
         background-color: #000000;
-        border-radius: 10px;
-        width: 300px;
-        margin: auto;
     }
 
     .hufflepuff-bar {
         background-color: #EEE117;
-        border-radius: 10px;
     }
 
     .ravenclaw-bar-container {
         background-color: #946B2D;
-        border-radius: 10px;
-        width: 300px;
-        margin: auto;
     }
 
     .ravenclaw-bar {
         background-color: #000A90;
-        border-radius: 10px;
     }
 
     .percent-text {
         color: #FFFFFF;
+        font-size: inherit;
     }
 }
 
@@ -317,6 +318,17 @@ h4 {
 @media screen and (max-width:600px) {
     .sumAnal {
         max-width: 320px;
+        padding-bottom: 4px;
+    }
+}
+
+#analTitle {
+    margin-top: 8px;
+}
+
+@media screen and (max-width:600px) {
+    #analTitle {
+        margin-top: 4px;
     }
 }
 
