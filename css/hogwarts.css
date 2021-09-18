@@ -115,6 +115,19 @@ h4 {
     
 }
 
+.loadingOpenCV {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px dashed gray;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 50px;
+    background-color: silver;
+    width: 530px;
+    height: 530px;
+}
+
 .try-again-btn {
     cursor: pointer;
     border-radius: 20px;

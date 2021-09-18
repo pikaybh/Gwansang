@@ -65,7 +65,10 @@
                 </label>
             </div>
             <div class="file-upload">
-                <h3 class="loadingOpenCV">AI를 준비 중입니다...</h3>
+                <div class="loadingOpenCV">
+                    <h3 class="loadingOpenCVH">AI를 준비 중입니다...</h3>
+                    <p>네트워크 환경에 따라 지체 될 수 있습니다.</p>
+                </div>
                 <div class="image-upload-wrap">
                     <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
                 </div>
