@@ -304,6 +304,22 @@ h4 {
     }
 }
 
+.sumAnal {
+    border: 1px solid #e6e6e6;
+    border-radius: 25px;
+    max-width: 65%;
+    background-color: seashell;
+    margin: auto;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:600px) {
+    .sumAnal {
+        max-width: 320px;
+    }
+}
+
 .notice {
     display: flex;
     width: 100%;

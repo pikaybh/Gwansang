@@ -70,11 +70,13 @@
                     <img class="file-upload-image" id="face-image" src="#" alt="your image" />
                     <div id="contents"></div>
                     <div class="loader"></div>
+                    <div class="sumAnal">
+                        <div id="analTitle"></div>
                         <div id="label-container"></div>
-                        <button type="button" class="try-again-btn" onclick="location.replace(location.href)">
-                            <span class="try-again-text">다른 사진으로 재시도</span>
-                        </button>
                     </div>
+                    <button type="button" class="try-again-btn" onclick="location.replace(location.href)">
+                        <span class="try-again-text">다른 사진으로 재시도</span>
+                    </button>
                 </div>
             </div>
             <?php
