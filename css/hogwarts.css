@@ -157,7 +157,12 @@ h4 {
     margin: auto;
 }
 
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 600px) {
+    .loadingOpenCV {
+        max-width: 320px;
+        max-height: 320px;
+    }
+
     .main-sec {
         max-width: 320px;
     }
