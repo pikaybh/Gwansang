@@ -32,6 +32,9 @@
     <?php
         echo $testClass->style;
     ?>
+    <?php
+        echo $testClass->switch;
+    ?>
     <script defer src="../js/main.js"></script>
     <script defer class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
@@ -50,23 +53,32 @@
             ?>
         </div>
         <section class="main-sec">
-        <div class="file-upload">
-            <div class="image-upload-wrap">
-                <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+            <!-- Rounded switch -->
+            <span class="switch-title">성별</span>
+            <div class='switch-space'>
+                <label class='switch'>
+                    <input type='checkbox'>
+                    <span class='slider round'></span>
+                </label>
             </div>
-            <div class="file-upload-content">
-                <img class="file-upload-image" id="face-image" src="#" alt="your image" />
-                <div class="loader"></div>
-                    <div id="label-container"></div>
-                    <button type="button" class="try-again-btn" onclick="location.replace(location.href)">
-                        <span class="try-again-text">다른 사진으로 재시도</span>
-                    </button>
+            <div class="file-upload">
+                <div class="image-upload-wrap">
+                    <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+                </div>
+                <div class="file-upload-content">
+                    <img class="file-upload-image" id="face-image" src="#" alt="your image" />
+                    <div id="contents"></div>
+                    <div class="loader"></div>
+                        <div id="label-container"></div>
+                        <button type="button" class="try-again-btn" onclick="location.replace(location.href)">
+                            <span class="try-again-text">다른 사진으로 재시도</span>
+                        </button>
+                    </div>
                 </div>
             </div>
-        </div>
-        <?php
-            echo $testClass->script;
-        ?>
+            <?php
+                echo $testClass->script;
+            ?>
         </section>
         <p class="notice">※테스트에 사용된 이미지는 그 어디에도 업로드 되지 않습니다※</p>
         <div class="numPeople">

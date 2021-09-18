@@ -1,0 +1,26 @@
+/*swich*/
+
+.switch-space {
+    display: none;
+}
+
+.switch-title {
+    display: none;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    display: none;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+  /* The slider */
+.slider {
+    display: none;
+}

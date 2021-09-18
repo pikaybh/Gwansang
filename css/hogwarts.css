@@ -140,7 +140,51 @@ h4 {
         max-width: 320px;
         margin: auto;
     }
+}
 
+.bar-title {
+    margin: 0;
+}
+
+.result-graph {
+    margin: 0;
+}
+
+.resultTitle {
+    font-size: 48px;
+}
+
+.resultExplain {
+    max-width: 66%;
+    margin: auto;
+    font-size: 30px;
+}
+
+@media screen and (max-width:600px) {
+    .resultTitle {
+        font-size: 32px;
+    }
+    
+    .resultExplain {
+        max-width: 320px;
+        font-size: 21px;
+    }
+}
+
+.gryffindor {
+    color: brown;
+}
+
+.slytherin {
+    color: green;
+}
+
+.hufflepuff {
+    color: yellow;
+}
+
+.ravenclaw {
+    color: blue;
 }
 
 #label-container {
