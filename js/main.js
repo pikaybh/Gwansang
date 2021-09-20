@@ -49,14 +49,14 @@ function copyurl() {
 
 /* loader box*/
 function AIthinking() {
+    document.getElementById("loadingP").style.display = "flexbox";
+
     if (matchMedia("Screen and (max-width: 600px)").matches) {
         document.getElementById("AIthinking").style.width = "320px";
         document.getElementById("AIthinking").style.height = "320px";
-        document.getElementById("loadingP").style.display = "flex";
     } else {
         document.getElementById("AIthinking").style.width = "530px";
         document.getElementById("AIthinking").style.height = "530px";
-        document.getElementById("loadingP").style.display = "flex";
     }
 }
 
