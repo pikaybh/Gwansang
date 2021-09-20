@@ -28,7 +28,6 @@ async function init() {
 
 // image through the image model
 async function predict() {
-    foo = foo + 1;
     AItelling();
     $('.loader').hide();
     $('.loading').hide();
@@ -118,6 +117,8 @@ async function predict() {
                 var bar = "<div class='" + prediction[i].className + "-bar-container bar-container'><div class='" + prediction[i].className + "-bar-box'></div><div class=' " + prediction[i].className + "-bar bar' style='width: " + barWidth + "'><span class='d-block percent-text'>" + Math.round(prediction[i].probability.toFixed(2) * 100) + "%</span></div></div>";
                 var analysis = "<div class='anal'>" + label + bar + "</div>"
                 labelContainer.childNodes[i].innerHTML = analysis;
+                
+                foo = foo + 1;
             }
         }
     }
