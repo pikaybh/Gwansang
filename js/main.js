@@ -16,7 +16,9 @@ function closeNav() {
 
 /*imgReader */
 function readURL(input) {
-    if (input.files && input.files[0]) {
+    var foo = 0
+
+    if (input.files && input.files[foo]) {
 
         var reader = new FileReader();
 
@@ -25,7 +27,7 @@ function readURL(input) {
             $('.file-upload-image').attr('src', e.target.result);
         };
 
-        reader.readAsDataURL(input.files[0]);
+        reader.readAsDataURL(input.files[foo]);
         init().then(() => {
             predict();
         });

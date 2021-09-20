@@ -3,9 +3,9 @@
 
 // the link to your model provided by Teachable Machine export panel
 const URL = './model/hogwarts/';
-let model, webcam, labelContainer, maxPredictions;
+let model, labelContainer, maxPredictions;
 
-// Load the image model and setup the webcam
+// Load the image model
 async function init() {
     const modelURL = URL + 'model.json';
     const metadataURL = URL + 'metadata.json';
@@ -26,8 +26,9 @@ async function init() {
     console.log('work done');
 }
 
-// run the webcam image through the image model
+// image through the image model
 async function predict() {
+    foo = foo + 1;
     AItelling();
     $('.loader').hide();
     $('.loading').hide();

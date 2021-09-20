@@ -102,6 +102,7 @@
                         </div>
                         <div id="label-container"></div>
                     </div>
+                    <input class="try-again-btn" type='file' onchange="readURL(this);" accept="image/*" />
                     <button type="button" class="try-again-btn" onclick="location.replace(location.href)">
                         <span class="try-again-text">다른 사진으로 재시도</span>
                     </button>
