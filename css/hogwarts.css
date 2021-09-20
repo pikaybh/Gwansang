@@ -117,6 +117,13 @@ h4 {
     
 }
 
+.loadingDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
 .loadingOpenCV {
     display: flex;
     border: 2px solid white;
