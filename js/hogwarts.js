@@ -94,8 +94,8 @@ async function predict() {
                         break;
                     case "ravenclaw":
                         resultTitle = "공부벌레 래번클로"
-                        resultExplain = "당신은 래번클로 어쩌구..."
-                        resultCeleb = "학습 데이터: <i>초 챙, 루나 러브굿</i> 등등...Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptates laborum vero pariatur nulla tempore ea tempora dolorum quis quaerat delectus voluptatum blanditiis rem, mollitia asperiores corrupti. Ipsa, soluta atque."
+                        resultExplain = "당신은 래번클로 어쩌구...Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptates laborum vero pariatur nulla tempore ea tempora dolorum quis quaerat delectus voluptatum blanditiis rem, mollitia asperiores corrupti. Ipsa, soluta atque."
+                        resultCeleb = "학습 데이터: <i>초 챙, 루나 러브굿</i> 등등..."
                         break;
                     default:
                         resultTitle = "당신은 혹시 머글?"
