@@ -104,10 +104,6 @@ h4 {
     100% { transform: rotate(360deg); }
 }
 
-.loading {
-    display: flex;
-}
-
 #loadingP {
     display: none;
     color: gray;
