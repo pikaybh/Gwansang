@@ -46,3 +46,19 @@ function copyurl() {
     console.log("copied a link url");
     alert("링크가 복사되었습니다.")
 }
+
+/* loader box*/
+function AIthinking() {
+    if (matchMedia("Screen and (max-width: 600px)").matches) {
+        document.getElementById("AIthinking").style.width = "320px";
+        document.getElementById("AIthinking").style.height = "320px";
+    } else {
+        document.getElementById("AIthinking").style.width = "530px";
+        document.getElementById("AIthinking").style.height = "530px";
+    }
+}
+
+function AItelling() {
+    document.getElementById("AIthinking").style.width = "0";
+    document.getElementById("AIthinking").style.height = "0";
+}

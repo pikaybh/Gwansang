@@ -38,12 +38,25 @@
     <script defer src="../js/faceDetect.js" type="text/javascript"></script>
     <script defer src="../js/main.js"></script>
     <script defer src="../js/utils.js"></script>
+    <script defer src="../js/ImageNet.js"></script>
+
     <script defer class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+
+    <!-- Load Teachablemachine.js-->
     <script defer src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+
+    <!-- Load TensorFlow.js. This is required to use MobileNet. -->
+    <script defer src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.1"> </script>
+
+    <!-- Load the MobileNet model. -->
+    <script defer src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"> </script>
+    
+    <!-- Load opencv.js -->
     <script defer src="https://docs.opencv.org/4.5.3/opencv.js" onload="onOpenCvReady();" type="text/javascript"></script>
 </head>
 <body>
+
     <!--navbar-->
     <?php require_once('../header.php'); ?>
 
@@ -72,7 +85,7 @@
                 <div class="image-upload-wrap">
                     <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
                 </div>
-                <div class="loadingDiv">
+                <div class="loadingDiv" id="AIthinking">
                     <div class="loading" id="loadingP">AI가 분석 중입니다...</div>
                     <div class="loader"></div>
                 </div>

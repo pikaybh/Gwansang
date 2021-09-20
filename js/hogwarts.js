@@ -9,6 +9,7 @@ let model, webcam, labelContainer, maxPredictions;
 async function init() {
     const modelURL = URL + 'model.json';
     const metadataURL = URL + 'metadata.json';
+    AIthinking();
     $('.loader').show();
     $('.loading').show();
 
@@ -27,6 +28,7 @@ async function init() {
 
 // run the webcam image through the image model
 async function predict() {
+    AItelling();
     $('.loader').hide();
     $('.loading').hide();
     $('.file-upload-content').show();
