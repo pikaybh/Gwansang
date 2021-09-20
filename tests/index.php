@@ -100,12 +100,12 @@
                             <canvas class="hiddenImg" id="matRoiImg"></canvas>
                             <canvas class="hiddenImg" id="roiImg"></canvas>
                         </div>
-                        <div id="label-container"></div>
+                        <div id="label-container" id="label-container"></div>
                     </div>
-                    <input class="try-again-btn" type='file' onchange="readURL(this);" accept="image/*" />
-                    <button type="button" class="try-again-btn" onclick="location.replace(location.href)">
+                    <div class="try-again-btn">
                         <span class="try-again-text">다른 사진으로 재시도</span>
-                    </button>
+                        <input class="reupload-input" type='file' onchange="readURL(this);" accept="image/*" />
+                    </div>
                 </div>
             </div>
             <?php

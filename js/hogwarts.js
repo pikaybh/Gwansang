@@ -28,11 +28,18 @@ async function init() {
 
 // image through the image model
 async function predict() {
+    // delete former informations 
+    labelContainer = document.getElementById('label-container');
+    for (let i = 0; i < maxPredictions; i++) {
+        labelContainer.childNodes[i].innerHTML = "";
+    }
+    
     AItelling();
     $('.loader').hide();
     $('.loading').hide();
     $('.file-upload-content').show();
     if (faces.size() < 1) {
+        // no face detected
         var resultError = "<h3 class='resultTitle'>얼굴을 찾을 수 없습니다!</h3>"
         var resultErrorText = "<p class='resultExplain'><b>※얼굴이 잘 나오게 다시 찍어주세요!※</b><br><i>특히, 눈, 코, 입이 잘 나와야 합니다.</i></p><style type='text/css'>.sumAnal{display:none;} .resultExplain{max-width: 100%; padding-bottom: 6px;}</st>"
         document.getElementById("identity").innerHTML = resultError;
@@ -115,10 +122,8 @@ async function predict() {
                 document.getElementById("analTitle").innerHTML = resultGraph;
                 var label = "<h3 class=' bar-title " + prediction[i].className + "'>" + resultLabel + "</h3>";
                 var bar = "<div class='" + prediction[i].className + "-bar-container bar-container'><div class='" + prediction[i].className + "-bar-box'></div><div class=' " + prediction[i].className + "-bar bar' style='width: " + barWidth + "'><span class='d-block percent-text'>" + Math.round(prediction[i].probability.toFixed(2) * 100) + "%</span></div></div>";
-                var analysis = "<div class='anal'>" + label + bar + "</div>"
+                var analysis = "<div class='anal' id='label-container'>" + label + bar + "</div>"
                 labelContainer.childNodes[i].innerHTML = analysis;
-                
-                foo = foo + 1;
             }
         }
     }

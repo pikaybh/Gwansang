@@ -158,6 +158,10 @@ h4 {
     border: 2px solid pink;
 }
 
+.reupload-input {
+    opacity: 0;
+}
+
 .file-upload-input {
     width: 530px;
     height: 530px;
