@@ -79,23 +79,23 @@ async function predict() {
                 switch (prediction[0].className) {
                     case "gryffindor":
                         resultTitle = "인싸 그리핀도르"
-                        resultExplain = "다정다감하고 귀여운 당신은 모든 사람들에게 즐거움을 주는 호감형이다! 친절하고 활발한 성격으로 어디에서도 인기폭발이며 애교와 웃음이 많아 연인에게 특히나 사랑스럽다. 당신은 애인바라기로 애인의 관심이 부족하면 시무룩해지고 외로움을 타는 모습이 마치 강아지와 똑 닮았다!"
+                        resultExplain = "당신은 그리핀도르 어쩌구...Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptates laborum vero pariatur nulla tempore ea tempora dolorum quis quaerat delectus voluptatum blanditiis rem, mollitia asperiores corrupti. Ipsa, soluta atque."
                         resultCeleb = "학습 데이터: <i>알버스 덤블도어, 위즐리 형제, 빌 위즐리, 찰리 위즐리, 콜린 크리비, 코맥 맥클래건, ⚡해리 포터, 헤르미온느 그레인저, 론 위즐리, 지니 위즐리, 제임스 포터</i> 등등...<br>총 25명"
                         break;
                     case "slytherin":
                         resultTitle = "츤데레 슬리데린"
-                        resultExplain = "무뚝뚝한 당신의 첫인상은 차가워 보이지만 묘한 매력을 풍겨 언제나 인기가 넘친다. 자존심이 세계 1등과 맞먹지만 관심 받는 것을 좋아하고 연인에게는 은근히 애교쟁이다. 시크한 츤데레로 연인에게 끊임없이 설렘을 안겨주는 당신은 고양이와 닮았다!"
+                        resultExplain = "당신은 슬리데린 어쩌구...Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptates laborum vero pariatur nulla tempore ea tempora dolorum quis quaerat delectus voluptatum blanditiis rem, mollitia asperiores corrupti. Ipsa, soluta atque."
                         resultCeleb = "학습 데이터: <i>알버스 포터, 드레이코 말포이,</i> 등등...<br>총 20명"
                         break;
                     case "hufflepuff":
                         resultTitle = "정의의 사도 후뿌뿌뿌"
-                        resultExplain = "천진난만하고 귀여운 당신은 주변 사람들에게 기쁨을 주는 행복바이러스다! 호기심이 많아 활발하며 귀엽고 순수한 외모로 연인의 보호본능을 자극한다. 존재 자체가 상큼한 당신은 특별한 애교 없이도 연인에게 너무나도 사랑스럽다!"
+                        resultExplain = "당신은 후플푸프 어쩌구...Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptates laborum vero pariatur nulla tempore ea tempora dolorum quis quaerat delectus voluptatum blanditiis rem, mollitia asperiores corrupti. Ipsa, soluta atque."
                         resultCeleb = "학습 데이터: <i>수산 본즈</i> 등등..."
                         break;
                     case "ravenclaw":
                         resultTitle = "공부벌레 래번클로"
-                        resultExplain = "무심한 성격에 첫인상은 나쁜 남자 같지만, 알고 보면 따뜻함이 묻어나는 당신! 시크한 매력에 선뜻 다가가지 못하지만 한번 다가가면 헤어나올 수 없는 터프한 매력을 가진 카리스마 있는 남자다."
-                        resultCeleb = "학습 데이터: <i>초 챙, 루나 러브굿</i> 등등..."
+                        resultExplain = "당신은 래번클로 어쩌구..."
+                        resultCeleb = "학습 데이터: <i>초 챙, 루나 러브굿</i> 등등...Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptates laborum vero pariatur nulla tempore ea tempora dolorum quis quaerat delectus voluptatum blanditiis rem, mollitia asperiores corrupti. Ipsa, soluta atque."
                         break;
                     default:
                         resultTitle = "당신은 혹시 머글?"
