@@ -117,13 +117,6 @@ h4 {
     
 }
 
-.loadingDiv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-
 .loadingOpenCV {
     display: flex;
     border: 2px solid white;
@@ -133,6 +126,14 @@ h4 {
     align-content: center;
     width: 530px;
     height: 530px;
+}
+
+.loadingDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .try-again-btn {
