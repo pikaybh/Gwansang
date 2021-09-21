@@ -138,14 +138,29 @@ h4 {
 }
 
 .try-again-btn {
+    text-align: center;
     cursor: pointer;
     border-radius: 35px;
     padding: 10px 0 10px 0;
+    border: 2px solid slategrey;
     background-color: slategrey;
     color: whitesmoke;
-    border: none;
     max-width: 200px;
     margin: auto;
+    position: relative;
+}
+
+.try-again-btn:hover {
+    border: 2px solid steelblue;
+    background-color: rgb(76, 110, 145);
+}
+
+.reupload-input {
+    cursor: pointer;
+    opacity: 0;
+    margin: auto;
+    position: absolute;
+    left: 0;
 }
 
 .image-upload-wrap {
@@ -158,11 +173,6 @@ h4 {
 
 .image-upload-wrap:hover {
     border: 2px solid pink;
-}
-
-.reupload-input {
-    opacity: 0;
-    position: absolute;
 }
 
 .file-upload-input {
