@@ -161,6 +161,7 @@ h4 {
     margin: auto;
     position: absolute;
     left: 0;
+    max-width: 200px;
 }
 
 .image-upload-wrap {
