@@ -80,7 +80,7 @@ h4 {
 }
 
 .hiddenImg {
-    display: none;
+    /*display: none;*/
     max-height: 100px;
     max-width: 100px;
     width: 100%; 
