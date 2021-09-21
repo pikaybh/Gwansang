@@ -7,6 +7,10 @@
             $testClass = new hogwarts();
         } else if($_GET["test"] == "fruitFace") {
             $testClass = new fruitFace();
+        } else if($_GET["test"] == "catBreed") {
+            $testClass = new catBreed();
+        } else if($_GET["test"] == "dogBreed") {
+            $testClass = new dogBreed();
         }
     } else {
         header("location: ../404.php?error=invalidAccess");
@@ -35,7 +39,9 @@
     <?php
         echo $testClass->switch;
     ?>
-    <script defer src="../js/faceDetect.js" type="text/javascript"></script>
+    <?php
+        echo $testClass->detects;
+    ?>
     <script defer src="../js/main.js"></script>
     <script defer src="../js/utils.js"></script>
     <script defer src="../js/ImageNet.js"></script>
@@ -47,10 +53,10 @@
     <script defer src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
 
     <!-- Load TensorFlow.js. This is required to use MobileNet. -->
-    <script defer src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.1"> </script>
-
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.1"> </script>
+    
     <!-- Load the MobileNet model. -->
-    <script defer src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"> </script>
     
     <!-- Load opencv.js -->
     <script defer src="https://docs.opencv.org/4.5.3/opencv.js" onload="onOpenCvReady();" type="text/javascript"></script>
@@ -70,10 +76,14 @@
         </div>
         <section class="main-sec">
             <!-- Rounded switch -->
-            <span class="switch-title">성별</span>
+            <span class="switch-title">
+                <?php
+                    echo $testClass->switchName
+                ?>
+            </span>
             <div class='switch-space'>
                 <label class='switch'>
-                    <input type='checkbox'>
+                    <input type='checkbox' id='switch'>
                     <span class='slider round'></span>
                 </label>
             </div>

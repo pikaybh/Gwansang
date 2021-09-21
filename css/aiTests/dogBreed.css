@@ -1,0 +1,440 @@
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 40px;
+    color: gray;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 32px;
+    color: black;
+}
+
+@media screen and (max-width:900px) {
+    h1 {
+        font-size: 36px;
+    }
+    
+    h2 {
+        font-size: 28px;
+        color: gray;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    h1 {
+        font-size: 32px !important;
+    }
+    
+    h2 {
+        font-size: 28px !important;
+        color: gray;
+    }
+}
+
+.calousel {
+    width: 100%;
+    height: 100px;
+    background-color: silver;
+}
+
+.title {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    text-align:center;
+}
+
+.file-upload {
+    margin: auto;
+    justify-content: center;
+}
+
+.file-upload-image {
+    border-radius: 50%;
+    max-height: 500px;
+    max-width: 500px;
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+}
+
+.file-upload-content {
+    display: none;
+    text-align: center;
+}
+
+.hiddenImg {
+    /*display: none;*/
+    max-height: 100px;
+    max-width: 100px;
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+}
+
+.loader {
+    display: none;
+    margin: 0px auto;
+    border: 4px solid gray;
+    border-top: 4px solid #f3f3f3;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#loadingP {
+    display: none;
+    color: gray;
+    margin: 30px 0 30px 0;
+}
+
+@media screen and (max-width:600px) {
+    #loadingP {
+        margin: 23px 0 18px 0;
+    }
+    
+}
+
+.loadingOpenCV {
+    display: flex;
+    border: 2px solid white;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 530px;
+    height: 530px;
+}
+
+.loadingDiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+@media screen and (max-width:600px) {
+    .loadingDiv {
+        max-width: 210px;
+        max-height: 210px;
+    }
+}
+
+.try-again-btn {
+    text-align: center;
+    cursor: pointer;
+    border-radius: 35px;
+    padding: 10px 0 10px 0;
+    border: 2px solid slategrey;
+    background-color: slategrey;
+    color: whitesmoke;
+    max-width: 200px;
+    margin: auto;
+    position: relative;
+}
+
+.try-again-btn:hover {
+    border: 2px solid steelblue;
+    background-color: rgb(76, 110, 145);
+}
+
+.reupload-input {
+    cursor: pointer;
+    opacity: 0;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    max-width: 200px;
+}
+
+.image-upload-wrap {
+    display: none;
+    border: 2px dashed hotpink;
+    border-radius: 50px;
+    background-color: pink;
+    background-size: 530px 530px;
+}
+
+.image-upload-wrap:hover {
+    border: 2px solid pink;
+}
+
+.file-upload-input {
+    width: 530px;
+    height: 530px;
+    cursor: pointer;
+    opacity: 0;
+    margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .loadingOpenCV {
+        max-width: 320px;
+        max-height: 210px;
+    }
+
+    .main-sec {
+        max-width: 320px;
+    }
+    
+    .file-upload-input {
+        width: 210px;
+        height: 210px;
+        cursor: pointer;
+        opacity: 0;
+    }
+    
+    .file-upload-image {
+        max-height: 210px;
+        max-width: 210px;
+        margin: auto;
+    }
+}
+
+.bar-title {
+    margin: 0 0 0 12px;
+}
+
+.result-graph {
+    margin: 4px 0 0 0;
+}
+
+.resultTitle {
+    font-size: 48px;
+    margin-top: 0;
+}
+
+.resultExplain {
+    max-width: 66%;
+    margin: auto;
+    margin-top: 16px;
+    font-size: 30px;
+}
+
+.resultCeleb {
+    max-width: 66%;
+    margin: auto;
+}
+
+@media screen and (max-width:600px) {
+    .resultTitle {
+        font-size: 32px;
+    }
+    
+    .resultExplain {
+        max-width: 320px;
+        font-size: 21px;
+    }
+    
+    .resultCeleb {
+        max-width: 320px;
+    }
+}
+
+.gryffindor {
+    color: #7F0909;
+}
+
+.slytherin {
+    color: #0D6217;
+}
+
+.hufflepuff {
+    color: #EEE117;
+}
+
+.ravenclaw {
+    color: #000A90;
+}
+
+#label-container {
+    margin-bottom: 20px;
+}
+
+.bar-container {
+    border-radius: 25px;
+    width: 80%;
+    height: 50px;
+    margin: auto;
+}
+
+.bar {
+    height: 50px;
+    border-radius: 25px;
+    align-items: center;
+}
+
+.gryffindor-bar-container {
+    background-color: #FFC500;
+}
+
+.gryffindor-bar {
+    background-color: #7F0909;
+}
+
+.slytherin-bar-container {
+    background-color: #AAAAAA;
+}
+
+.slytherin-bar {
+    background-color: #0D6217;
+}
+
+.hufflepuff-bar-container {
+    background-color: #000000;
+}
+
+.hufflepuff-bar {
+    background-color: #EEE117;
+}
+
+.ravenclaw-bar-container {
+    background-color: #946B2D;
+}
+
+.ravenclaw-bar {
+    background-color: #000A90;
+}
+
+.percent-text {
+    color: #FFFFFF;
+    font-size: 32px;
+    top: 40%;
+}
+
+@media screen and (max-width: 600px) {
+    .bar-container {
+        border-radius: 10px;
+        width: 300px;
+        height: 20px;
+        margin: auto;
+    }
+    
+    .bar {
+        height: 20px;
+        border-radius: 10px;
+    }
+    
+    .gryffindor-bar-container {
+        background-color: #FFC500;
+    }
+
+    .gryffindor-bar {
+        background-color: #7F0909;
+    }
+
+    .slytherin-bar-container {
+        background-color: #AAAAAA;
+    }
+
+    .slytherin-bar {
+        background-color: #0D6217;
+    }
+
+    .hufflepuff-bar-container {
+        background-color: #000000;
+    }
+
+    .hufflepuff-bar {
+        background-color: #EEE117;
+    }
+
+    .ravenclaw-bar-container {
+        background-color: #946B2D;
+    }
+
+    .ravenclaw-bar {
+        background-color: #000A90;
+    }
+
+    .percent-text {
+        color: #FFFFFF;
+        font-size: inherit;
+        top: 0;
+    }
+}
+
+.sumAnal {
+    border: 1px solid #e6e6e6;
+    border-radius: 25px;
+    max-width: 65%;
+    background-color: seashell;
+    margin: auto;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:600px) {
+    .sumAnal {
+        max-width: 320px;
+        padding-bottom: 0;
+    }
+}
+
+#analTitle {
+    margin-top: 8px;
+}
+
+@media screen and (max-width:600px) {
+    #analTitle {
+        margin-top: 4px;
+    }
+}
+
+.notice {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+    font-size: 28px;
+    color: silver;
+}
+
+@media screen and (max-width:600px) {
+    .notice {
+        font-size: inherit;
+    }
+}
+
+.numPeople {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+}
+
+.share-title {
+    margin: 0;
+}
+
+.share-cont {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}

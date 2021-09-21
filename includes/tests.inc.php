@@ -9,7 +9,13 @@
         } else if ($_POST["AItest"] == "fruitFace") {
             header("location: ../tests/?test=fruitFace");
             exit();
-        } {
+        } else if ($_POST["AItest"] == "catBreed") {
+            header("location: ../tests/?test=catBreed");
+            exit();
+        } else if ($_POST["AItest"] == "dogBreed") {
+            header("location: ../tests/?test=dogBreed");
+            exit();
+        } else {
             header("location: ../404.php?error=wrongTestList");
             exit();
         }
