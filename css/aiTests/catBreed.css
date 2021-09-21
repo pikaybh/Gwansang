@@ -80,7 +80,7 @@ h4 {
 }
 
 .hiddenImg {
-    /*display: none;*/
+    display: none;
     max-height: 100px;
     max-width: 100px;
     width: 100%; 
@@ -280,12 +280,15 @@ h4 {
     width: 80%;
     height: 50px;
     margin: auto;
+    background-color: white;
+    border: 1.5px solid darkgray;
 }
 
 .bar {
     height: 50px;
     border-radius: 25px;
     align-items: center;
+    background-color: silver;
 }
 
 .gryffindor-bar-container {
