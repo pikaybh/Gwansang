@@ -9,9 +9,16 @@ let model, labelContainer, maxPredictions;
 async function init() {
     const modelURL = URL + 'model.json';
     const metadataURL = URL + 'metadata.json';
+
     AIthinking();
     $('.loader').show();
     $('.loading').show();
+
+    // delete former informations 
+    labelContainer = document.getElementById('label-container');
+    for (let i = 0; i < maxPredictions; i++) {
+        labelContainer.childNodes[i].innerHTML = "";
+    }
 
     // load the model and metadata
     // Refer to tmImage.loadFromFiles() in the API to support files from a file picker
@@ -28,22 +35,18 @@ async function init() {
 
 // image through the image model
 async function predict() {
-    // delete former informations 
-    labelContainer = document.getElementById('label-container');
-    for (let i = 0; i < maxPredictions; i++) {
-        labelContainer.childNodes[i].innerHTML = "";
-    }
-    
     AItelling();
     $('.loader').hide();
     $('.loading').hide();
     $('.file-upload-content').show();
+
     if (faces.size() < 1) {
         // no face detected
         var resultError = "<h3 class='resultTitle'>얼굴을 찾을 수 없습니다!</h3>"
         var resultErrorText = "<p class='resultExplain'><b>※얼굴이 잘 나오게 다시 찍어주세요!※</b><br><i>특히, 눈, 코, 입이 잘 나와야 합니다.</i></p><style type='text/css'>.sumAnal{display:none;} .resultExplain{max-width: 100%; padding-bottom: 6px;}</st>"
         document.getElementById("identity").innerHTML = resultError;
         document.getElementById("contents").innerHTML = resultErrorText;
+
     } else {
         // predict can take in an image, video or canvas html element
         var image = document.getElementById('matRoiImg');
@@ -52,15 +55,6 @@ async function predict() {
         console.log(prediction[0].className);
 
         var resultLabel, resultTitle, resultExplain, resultCeleb, barWidth;
-        /*for (let i = 0; i < maxPredictions; i++) {
-            if (prediction[i].probability.toFixed(2) > 0.1) {
-                barWidth = Math.round(prediction[i].probability.toFixed(2) * 100) + '%';
-            } else if (prediction[i].probability.toFixed(2) >= 0.01) {
-                barWidth = '4%';
-            } else {
-                barWidth = '2%';
-            }*/
-
         for (let i = 0; i < maxPredictions; i++) {
             if (prediction[i].probability.toFixed(2) == 0.00) {
 
