@@ -137,6 +137,13 @@ h4 {
     align-content: center;
 }
 
+@media screen and (max-width:600px) {
+    .loadingDiv {
+        max-width: 210px;
+        max-height: 210px;
+    }
+}
+
 .try-again-btn {
     text-align: center;
     cursor: pointer;
@@ -161,7 +168,7 @@ h4 {
     margin: auto;
     position: absolute;
     left: 0;
-    max-width: 200`px;
+    max-width: 200px;
 }
 
 .image-upload-wrap {
@@ -186,7 +193,7 @@ h4 {
 
 @media screen and (max-width: 600px) {
     .loadingOpenCV {
-        max-width: 210px;
+        max-width: 320px;
         max-height: 210px;
     }
 
