@@ -29,7 +29,7 @@ function readURL(input) {
         init().then(() => {
             predict();
         });
-        
+
         removeUpload();
     } else {
         removeUpload();
@@ -41,12 +41,6 @@ function removeUpload() {
     $('.file-upload-content').hide();
     $('.image-upload-wrap').show();
 }
-$('.image-upload-wrap').bind('dragover', function() {
-    $('.image-upload-wrap').addClass('image-dropping');
-});
-$('.image-upload-wrap').bind('dragleave', function() {
-    $('.image-upload-wrap').removeClass('image-dropping');
-});
 
 /* copy url */
 function copyurl() {
