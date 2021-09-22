@@ -23,10 +23,10 @@
     <article>
         <ul class="li-art">
             <li>
-                <div class="calousel">사람얼굴로 하는 테스트</div>
+                <div class="divline"></div>
             </li>
             <li>
-                <div class="divline"></div>
+                <div class="calousel">사람얼굴로 하는 테스트</div>
             </li>
             <!--아이돌 포지션 테스트-->
             <li class="homepage-li">
@@ -116,10 +116,10 @@
                 </section>
             </li>
             <li>
-                <div class="calousel">애완동물과 함께하는 테스트</div>
+                <div class="divline"></div>
             </li>
             <li>
-                <div class="divline"></div>
+                <div class="calousel">애완동물과 함께하는 테스트</div>
             </li>
             <!--강아지 족보 테스트-->
             <li class="homepage-li">
