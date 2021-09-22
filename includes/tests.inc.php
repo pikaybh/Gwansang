@@ -15,6 +15,9 @@
         } else if ($_POST["AItest"] == "dogBreed") {
             header("location: ../tests/?test=dogBreed");
             exit();
+        } else if ($_POST["AItest"] == "idolPosition") {
+            header("location: ../tests/?test=idolPosition");
+            exit();
         } else {
             header("location: ../404.php?error=wrongTestList");
             exit();

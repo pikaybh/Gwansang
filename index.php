@@ -25,7 +25,25 @@
             <li>
                 <div class="divline"></div>
             </li>
-            <!--호그와트 기숙사 테스트-->
+            <!--아이돌 포지션 테스트-->
+            <li class="homepage-li">
+                <section>
+                    <form id="testLink6" action="./includes/tests.inc.php" method="post">
+                        <input type="hidden" name="AItest" value="idolPosition" />
+                        <a href="javascript:void(0)" class="testList" onclick="document.getElementById('testLink6').submit();">
+                            <div>
+                                <div class="testPic"></div>
+                                <h3 class="testTitle">아이돌 포지션 알아보기!</h3>
+                                <h4 class="testTitle">내가 만약 아이돌이라면, 내 포지션은 어디?!</h4>
+                            </div>
+                        </a>
+                    </form>
+                </section>
+            </li>
+            <li>
+                <div class="divline"></div>
+            </li>
+            <!--강아지 족보 테스트-->
             <li class="homepage-li">
                 <section>
                     <form id="testLink5" action="./includes/tests.inc.php" method="post">
@@ -43,7 +61,7 @@
             <li>
                 <div class="divline"></div>
             </li>
-            <!--호그와트 기숙사 테스트-->
+            <!--고양이 족보 테스트-->
             <li class="homepage-li">
                 <section>
                     <form id="testLink4" action="./includes/tests.inc.php" method="post">
