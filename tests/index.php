@@ -13,6 +13,9 @@
             $testClass = new dogBreed();
         } else if($_GET["test"] == "idolPosition") {
             $testClass = new idolPosition();
+        } else {
+            header("location: ../404.php?error=wrongTestList");
+            exit();
         }
     } else {
         header("location: ../404.php?error=invalidAccess");
