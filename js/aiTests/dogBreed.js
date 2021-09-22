@@ -474,7 +474,7 @@ async function predict() {
                             break;
                         case "Shih-Tzu":
                             resultTitle = "시추"
-                            resultExplain = "장난스러운 | 원기왕성한 | 충성스러운 | 활동적인 | 영리한 | 우호적인 | 밝은 | 용맹스러운<br><br>개체에 따라 내성적이거나 외향적일 수 있지만, 사람을 대상으로는 사교적인 편이다. 사람을 너무 좋아해서 자신에게 이쁘다고 하는 사람을 정신줄 놓고 좋아하는 경우도 있다. 또한 자신을 좋아하는 사람에겐 좋다는 표시를 온몸으로 해댄다.<br> &quot;혼자있는 외로움&quot;을 잘 참아내기 때문에 집을 자주 비우는 현대인이 기르기에 적합하다."
+                            resultExplain = "장난스러운 | 원기왕성한 | 충성스러운 | 활동적인 | 영리한 | 우호적인 | 밝은 | 용맹스러운<br><br>개체에 따라 내성적이거나 외향적일 수 있지만, 사람을 대상으로는 사교적인 편이다. 사람을 너무 좋아해서 자신에게 이쁘다고 하는 사람을 정신줄 놓고 좋아하는 경우도 있다. 또한 자신을 좋아하는 사람에겐 좋다는 표시를 온몸으로 해댄다.<br>&nbsp; &quot;혼자있는 외로움&quot;을 잘 참아내기 때문에 집을 자주 비우는 현대인이 기르기에 적합하다."
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "Blenheim spaniel":
@@ -498,43 +498,43 @@ async function predict() {
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "Afghan hound, Afghan":
-                            resultTitle = ""
-                            resultExplain = "<br><br>"
+                            resultTitle = "우아한 아프간 하운드"
+                            resultExplain = "냉담한 | 익살스러운 | 독립심이 강한 | 품위있는 | 밝은<br><br>아프간 하운드는 똑똑, 민첩, 활발하고 장난기가 많은 성격을 지니고 있다. 또한, 애정이 깊고, 주인을 항상 걱정한다. 자립심이 강하고 항상 의연한 태도로 감정을 잘 안드러내는 편이기도 하다. 아이들에게 기본적으로 상냥하게 대해주지만 함께 어울리며 놀지는 않는 타입의 우아한 견종이다."
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "basset, basset hound":
-                            resultTitle = ""
-                            resultExplain = "<br><br>"
+                            resultTitle = "바셋 하운드"
+                            resultExplain = "상냥한 | 애정이 풍부한 | 집요한 | 우호적인 | 헌신적인 | 온화한<br><br>바셋하운드는 상냥하고, 온정이 많은 강아지다. 주인에게 헌신적이고 충성심이 강하지만, 내성적이고 고집이 센 편이며 귀찮게 하는걸 싫어한다. 또한, 비만이 되기 쉬우니 간단한 산책을 자주 시켜주시는편이 좋다. 원래 사냥견이기 때문에 운동을 자주시켜줘야 관절염도 예방할 수 있다."
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "beagle":
-                            resultTitle = ""
-                            resultExplain = "<br><br>"
+                            resultTitle = "악마견 비글"
+                            resultExplain = "쾌활한 | 총명한 | 쉽게 흥분하는 | 침착한 | 결연한 | 온화한<br><br>비글의 활기차고 에너지가 넘치는 특징 때문에 흔히 악마견이라고 알려져 있지만, 실상은 너무나 순종적이고 착하기 때문에 실험견으로 많이 쓰이는 견종이다. 아픈 주사와 약물투여를 실행하는 사람에게 다시 곁을 내 줄 정도로 착하다..."
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "bloodhound, sleuthhound":
-                            resultTitle = ""
-                            resultExplain = "<br><br>"
+                            resultTitle = "블러드하운드"
+                            resultExplain = "고집스러운 | 애정이 풍부한 | 침착한 | 온화한<br><br>순하고 얌전하며 다정하고 사람들과 잘 어울리는 견종이다. 특히, 주인과 끈끈한 애착관계를 형성한다. 블러드하운드는 사납지 않은 견종이어서 아이들에게도 인기가 많은 동반견이 될 수 있다."
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "bluetick":
-                            resultTitle = ""
-                            resultExplain = "<br><br>"
+                            resultTitle = "블루틱 쿤하운드"
+                            resultExplain = "총명한 | 활동적인 | 우호적인<br><br>블루틱 쿤하운드는 상냥하고 우아한 개다. 어릴 때부터 집 안에서 길러진다면 가정생활에 잘 적응할 것이다. 블루틱 쿤하운드는 주인에게 매우 순종적이며 체력이 강인하다. 귀를 특별히 신경써서 손질해 주어야 하며, 운동이 필수적이다. 블루틱 쿤하운드는 개체 마다 다른 소리로 짖어서 주인이라면 분별할 수 있을 정도다."
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "black-and-tan coonhound":
-                            resultTitle = ""
-                            resultExplain = "<br><br>"
+                            resultTitle = "블랙 앤드 탄 쿤하운드"
+                            resultExplain = "활발한 | 침착한<br><br>블랙 앤드 탄 쿤하운드는 활발한 성격으로 사람들을 즐겁게 할 줄도 아는 견종이다. 침착하며 아이들과도 잘 지내지만, 다른 짐승의 냄새에 예민하게 반응하여 쫓아가려고 하기 때문에 잃어버릴 염려가 있다. 큰 귀가 밑으로 처져 있는데, 병균에 감염되지 않게 항상 깨끗이 해주어야 한다. 나팔소리와 같은 우렁찬 목소리를 내며 민감하고 많은 운동량을 필요로 하므로 <b>도시생활에는 적합하지 않다!</b> "
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "Walker hound, Walker foxhound":
-                            resultTitle = ""
-                            resultExplain = "<br><br>"
+                            resultTitle = "트링 워커 쿤하운드"
+                            resultExplain = "총명한 | 애정이 풍부한 | 영리한 | 자신감이 있는 | 애정이 넘치는 | 훈련 능력이 뛰어난<br><br>트링 워커 쿤하운드는 사냥감을 나무 위로 쫒아 올려놓은 다음 나무를 타고 올라가 잡기도 할 정도로 파워풀한 사냥개다. 조금만 훈련을 시키면 사냥감을 몰아넣은 후에 다른 목소리를 내서 그것을 알리게 할 수도 있다. 이 개는 고된 육체적 운동을 주목적으로 개량이 이루어졌고, 좋은 애완견이기도 하지만 <b>도시에는 어울리지 않다!</b>"
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "English foxhound":
-                            resultTitle = ""
-                            resultExplain = "<br><br>"
+                            resultTitle = "잉글리시 폭스하운드"
+                            resultExplain = "참을성 있는 | 사교성 좋은 | 붙임성이 있는 | 우호적인 | 활동적인 | 온화한<br><br>명랑하고 쾌활하며 인내심이 강하다. 뛰어놀기를 좋아하며 어지간해서 지칠 줄 모른다. 고집스러운 면이 있어서 강아지 때부터 엄격한 훈련이 필요하고 넓은 공간이 확보되어야 한다. 따라서, 애완견보다 훌륭한 사냥개로 더 사랑 받는다."
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "redbone":
@@ -548,23 +548,23 @@ async function predict() {
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                         case "Irish wolfhound":
                             resultTitle = ""
-                            resultExplain = ""
+                            resultExplain = "<br><br>"
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "Italian greyhound":
                             resultTitle = ""
-                            resultExplain = ""
+                            resultExplain = "<br><br>"
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "whippet":
                             resultTitle = ""
-                            resultExplain = ""
+                            resultExplain = "<br><br>"
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "Ibizan hound, Ibizan Podenco":
                             resultLabel = "이비전 하운드"
                             resultTitle = ""
-                            resultExplain = ""
+                            resultExplain = "<br><br>"
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "Norwegian elkhound, elkhound":
