@@ -71,11 +71,13 @@ function AIthinking() {
 function AItelling() {
     document.getElementById("AIthinking").style.width = "0";
     document.getElementById("AIthinking").style.height = "0";
+    document.getElementById("save-btn").style.display = "flex";
 }
 
+/*screen shot*/
 function screenShot() {    
     html2canvas(document.getElementById('article-page'), {}).then(function (canvas) {
-        saveAs(canvas.toDataURL(), 'AITest.png');
+        saveAs(canvas.toDataURL(), 'InChin.jpg');
         console.log("screen captured");
     });
 }

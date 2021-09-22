@@ -162,7 +162,7 @@
                 <a href="javascript:void(0)" onclick="copyurl(); return false;"><span class="material-icons">share</span></a>
             </div>
         </div>
-        <a href="javascript:void(0)" class="save-btn" onclick="screenShot();">결과 저장하기 <span class="material-icons">save_alt</span></a>
+        <a href="javascript:void(0)" class="save-btn" id="save-btn" onclick="screenShot();">결과 저장하기 <span class="material-icons">save_alt</span></a>
         <div class="AD"></div>
     </article>
 
