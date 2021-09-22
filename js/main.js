@@ -72,3 +72,23 @@ function AItelling() {
     document.getElementById("AIthinking").style.width = "0";
     document.getElementById("AIthinking").style.height = "0";
 }
+
+function screenShot() {    
+    html2canvas(document.getElementById('article-page'), {}).then(function (canvas) {
+        saveAs(canvas.toDataURL(), 'AITest.png');
+        console.log("screen captured");
+    });
+}
+
+function saveAs(uri, filename) {
+	var link = document.createElement('a');
+	if (typeof link.download === 'string') {
+		link.href = uri;
+		link.download = filename;
+		document.body.appendChild(link);
+		link.click();
+		document.body.removeChild(link);
+	} else {
+		window.open(uri);
+	}
+}

@@ -58,6 +58,10 @@
     
     <!-- Load opencv.js -->
     <script defer src="https://docs.opencv.org/4.5.3/opencv.js" onload="onOpenCvReady();" type="text/javascript"></script>
+
+    <!--screen shot-->
+    <script defer src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+
 </head>
 <body>
 
@@ -65,7 +69,7 @@
     <?php require_once('../header.php'); ?>
 
     <!--article-->
-    <article>
+    <article id="article-page">
         <div class="calousel"></div>
         <div class="title">
             <?php
@@ -158,6 +162,7 @@
                 <a href="javascript:void(0)" onclick="copyurl(); return false;"><span class="material-icons">share</span></a>
             </div>
         </div>
+        <a href="javascript:void(0)" class="save-btn" onclick="screenShot();">결과 저장하기 <span class="material-icons">save_alt</span></a>
         <div class="AD"></div>
     </article>
 
