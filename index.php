@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI 관상</title>
+    <title>인공지능 친구들</title>
     <link rel="icon" href="./images/nbklogo.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -52,7 +52,7 @@
                             <div>
                                 <div class="testPic"></div>
                                 <h3 class="testTitle">고양이 품종 알아보기!</h3>
-                                <h4 class="testTitle">집사야! AI가 알려주는 내 품종 알아보고 가냥!🐱🐈🐾</h4>
+                                <h4 class="testTitle">집사야! AI가 알려주는 내 품종 알아보냥?🐱🐈🐾</h4>
                             </div>
                         </a>
                     </form>
@@ -124,7 +124,7 @@
                             <div>
                                 <div class="testPic"></div>
                                 <h3 class="testTitle">동물상 테스트</h3>
-                                <h4 class="testTitle">AI가 알려주는 당신의 동물상!🐶🐱</h4> 
+                                <h4 class="testTitle">AI가 알려주는 당신의 동물상!🐶🐱🦊🐰🐻</h4> 
                             </div>
                         </a>
                     </form>

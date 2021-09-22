@@ -29,7 +29,7 @@
         <?php            
             echo $testClass->test . " | ";
         ?>
-        AItest
+        인공지능 친구들
     </title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
