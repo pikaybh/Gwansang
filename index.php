@@ -23,6 +23,9 @@
     <article>
         <ul class="li-art">
             <li>
+                <div class="calousel">사람얼굴로 하는 테스트</div>
+            </li>
+            <li>
                 <div class="divline"></div>
             </li>
             <!--아이돌 포지션 테스트-->
@@ -35,42 +38,6 @@
                                 <div class="testPic"></div>
                                 <h3 class="testTitle">아이돌 포지션 알아보기!</h3>
                                 <h4 class="testTitle">내가 만약 아이돌이라면, 내 포지션은 어디?!</h4>
-                            </div>
-                        </a>
-                    </form>
-                </section>
-            </li>
-            <li>
-                <div class="divline"></div>
-            </li>
-            <!--강아지 족보 테스트-->
-            <li class="homepage-li">
-                <section>
-                    <form id="testLink5" action="./includes/tests.inc.php" method="post">
-                        <input type="hidden" name="AItest" value="dogBreed" />
-                        <a href="javascript:void(0)" class="testList" onclick="document.getElementById('testLink5').submit();">
-                            <div>
-                                <div class="testPic"></div>
-                                <h3 class="testTitle">강아지 품종 알아보기!</h3>
-                                <h4 class="testTitle">주인님! AI가 알려주는 제 품종 알아보고 가시개!🐶🐕🐾</h4>
-                            </div>
-                        </a>
-                    </form>
-                </section>
-            </li>
-            <li>
-                <div class="divline"></div>
-            </li>
-            <!--고양이 족보 테스트-->
-            <li class="homepage-li">
-                <section>
-                    <form id="testLink4" action="./includes/tests.inc.php" method="post">
-                        <input type="hidden" name="AItest" value="catBreed" />
-                        <a href="javascript:void(0)" class="testList" onclick="document.getElementById('testLink4').submit();">
-                            <div>
-                                <div class="testPic"></div>
-                                <h3 class="testTitle">고양이 품종 알아보기!</h3>
-                                <h4 class="testTitle">집사야! AI가 알려주는 내 품종 알아보냥?🐱🐈🐾</h4>
                             </div>
                         </a>
                     </form>
@@ -106,7 +73,7 @@
                             <div>
                                 <div class="testPic"></div>
                                 <h3 class="testTitle">과즙상 테스트</h3>
-                                <h4 class="testTitle">AI가 알려주는 당신의 과즙상!🍎</h4>
+                                <h4 class="testTitle">AI가 알려주는 당신의 과즙상!🍎🍑🍒🍋🍍</h4>
                             </div>
                         </a>
                     </form>
@@ -143,6 +110,45 @@
                                 <div class="testPic"></div>
                                 <h3 class="testTitle">동물상 테스트</h3>
                                 <h4 class="testTitle">AI가 알려주는 당신의 동물상!🐶🐱🦊🐰🐻</h4> 
+                            </div>
+                        </a>
+                    </form>
+                </section>
+            </li>
+            <li>
+                <div class="calousel">애완동물과 함께하는 테스트</div>
+            </li>
+            <li>
+                <div class="divline"></div>
+            </li>
+            <!--강아지 족보 테스트-->
+            <li class="homepage-li">
+                <section>
+                    <form id="testLink5" action="./includes/tests.inc.php" method="post">
+                        <input type="hidden" name="AItest" value="dogBreed" />
+                        <a href="javascript:void(0)" class="testList" onclick="document.getElementById('testLink5').submit();">
+                            <div>
+                                <div class="testPic"></div>
+                                <h3 class="testTitle">강아지 품종 알아보기!</h3>
+                                <h4 class="testTitle">주인님! AI가 알려주는 제 품종 알아보고 가시개!🐶🐕🐾</h4>
+                            </div>
+                        </a>
+                    </form>
+                </section>
+            </li>
+            <li>
+                <div class="divline"></div>
+            </li>
+            <!--고양이 족보 테스트-->
+            <li class="homepage-li">
+                <section>
+                    <form id="testLink4" action="./includes/tests.inc.php" method="post">
+                        <input type="hidden" name="AItest" value="catBreed" />
+                        <a href="javascript:void(0)" class="testList" onclick="document.getElementById('testLink4').submit();">
+                            <div>
+                                <div class="testPic"></div>
+                                <h3 class="testTitle">고양이 품종 알아보기!</h3>
+                                <h4 class="testTitle">집사야! AI가 알려주는 내 품종 알아보냥?🐱🐈🐾</h4>
                             </div>
                         </a>
                     </form>

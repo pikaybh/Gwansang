@@ -61,6 +61,12 @@ section {
     }
 }
 
+.calousel {
+    width: 100vw;
+    height: 150px;
+    background-color: silver;
+}
+
 .testPic {
     border-radius: 15px;
     width: 480px;
