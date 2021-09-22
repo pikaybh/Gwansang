@@ -192,256 +192,256 @@ async function predict() {
                                 resultLabel = "에어데일 테리어" //ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ
                                 break;
                             case "cairn, cairn terrier":
-                                resultLabel = "카이언"
+                                resultLabel = "케언 테리어"
                                 break;
                             case "Australian terrier":
-                                resultLabel = "호주 테리어"
+                                resultLabel = "오스트레일리안 테리어"
                                 break;
                             case "Dandie Dinmont, Dandie Dinmont terrier":
-                                resultLabel = "댄디 딘몬트"
+                                resultLabel = "댄디 딘몬트 테리어"
                                 break;
                             case "Boston bull, Boston terrier":
-                                resultLabel = "보스톤 불"
+                                resultLabel = "보스턴 테리어"
                                 break;
                             case "miniature schnauzer":
-                                resultLabel = "미니어쳐 슈나우저"
+                                resultLabel = "미니어처 슈나우저"
                                 break;
                             case "giant schnauzer":
                                 resultLabel = "자이언트 슈나우저"
                                 break;
                             case "standard schnauzer":
-                                resultLabel = "스탠다드 슈나우저"
+                                resultLabel = "스탠더드 슈나우저"
                                 break;
                             case "Scotch terrier, Scottish terrier, Scottie":
-                                resultLabel = "스카치 테리어"
+                                resultLabel = "스코티시 테리어"
                                 break;
                             case "Tibetan terrier, chrysanthemum dog":
                                 resultLabel = "티베탄 테리어"
                                 break;
                             case "silky terrier, Sydney silky":
-                                resultLabel = "실키 테리어"
+                                resultLabel = "오스트레일리안 실키 테리어"
                                 break;
                             case "soft-coated wheaten terrier":
-                                resultLabel = "소프트 코티드 위튼 테리어"
+                                resultLabel = "아이리쉬 소프트코티드 휘튼 테리어"
                                 break;
                             case "West Highland white terrier":
-                                resultLabel = "웨스트 하이랜드 화이트 테리어"
+                                resultLabel = "웨스트 하일랜드 화이트 테리어"
                                 break;
                             case "Lhasa, Lhasa apso":
-                                resultLabel = "라사 압소"
+                                resultLabel = "라사압소"
                                 break;
                             case "flat-coated retriever":
-                                resultLabel = "플랫코티드 리트리버"
+                                resultLabel = "플랫 코티드 리트리버"
                                 break;
                             case "curly-coated retriever":
-                                resultLabel = "컬리코티드 리트리버"
+                                resultLabel = "컬리 코티드 리트리버"
                                 break;
                             case "golden retriever":
                                 resultLabel = "골든 리트리버"
                                 break;
                             case "Labrador retriever":
-                                resultLabel = "래브러도어 리트리버"
+                                resultLabel = "래브라도 리트리버"
                                 break;
                             case "Chesapeake Bay retriever":
-                                resultLabel = "체사페아케 베이 리트리버"
+                                resultLabel = "체서피크 베이 리트리버"
                                 break;
                             case "German short-haired pointer":
-                                resultLabel = "저먼 숏헤어드 포인터"
+                                resultLabel = "저먼 쇼트헤어드 포인터"
                                 break;
                             case "vizsla, Hungarian pointer":
-                                resultLabel = "비즐라, 헝가리안 포인터"
+                                resultLabel = "비즐라"
                                 break;
                             case "English setter":
-                                resultLabel = "잉글리시 세터"
+                                resultLabel = "르웰린"
                                 break;
                             case "Irish setter, red setter":
-                                resultLabel = "아이리시 세터, 레드 세터"
+                                resultLabel = "아이리시 세터"
                                 break;
                             case "Gordon setter":
                                 resultLabel = "고든 세터"
                                 break;
                             case "Brittany spaniel":
-                                resultLabel = "비리타니 스패니얼"
+                                resultLabel = "브리트니"
                                 break;
                             case "clumber, clumber spaniel":
-                                resultLabel = "클럼버"
+                                resultLabel = "클럼버 스파니엘"
                                 break;
                             case "English springer, English springer spaniel":
-                                resultLabel = "잉글리시 스프링거"
+                                resultLabel = "잉글리시 스프링어 스패니얼"
                                 break;
                             case "Welsh springer spaniel":
-                                resultLabel = "웰시 스프링거 스패니얼"
+                                resultLabel = "웰시 스프링어 스패니얼"
                                 break;
                             case "cocker spaniel, English cocker spaniel, cocker":
-                                resultLabel = "카커 스패니얼, 잉글리시 카커 스패니얼, 카커"
+                                resultLabel = "코커 스패니얼"
                                 break;
                             case "Sussex spaniel":
-                                resultLabel = "서섹스 스패니얼"
+                                resultLabel = "서식스 스패니얼"
                                 break;
                             case "Irish water spaniel":
-                                resultLabel = "아이리시 와터 스패니얼"
+                                resultLabel = "아이리시 워터 스패니얼"
                                 break;
                             case "kuvasz":
-                                resultLabel = "쿠바스"
+                                resultLabel = "쿠바츠"
                                 break;
                             case "schipperke":
-                                resultLabel = "시퍼커"
+                                resultLabel = "스키퍼키"
                                 break;
                             case "groenendael":
-                                resultLabel = "그로엔엔다엘"
+                                resultLabel = "그루넨달"
                                 break;
                             case "malinois":
-                                resultLabel = "말리노이스"
+                                resultLabel = "말리노이즈"
                                 break;
                             case "briard":
-                                resultLabel = "웨이마르너"
+                                resultLabel = "브리아드"
                                 break;
                             case "kelpie":
-                                resultLabel = "스타포드시어"
+                                resultLabel = "오스트레일리안 켈피"
                                 break;
                             case "komondor":
-                                resultLabel = "아메리칸 스타포드시어 테리어"
+                                resultLabel = "코몬돌"
                                 break;
                             case "Old English sheepdog, bobtail":
-                                resultLabel = "베들링톤 테리어"
+                                resultLabel = "올드 잉글리시 쉽독"
                                 break;
                             case "Shetland sheepdog, Shetland sheep dog, Shetland":
-                                resultLabel = "보더 테리어"
+                                resultLabel = "셔틀랜드 쉽독"
                                 break;
                             case "collie":
-                                resultLabel = "케리 블루 테리어"
+                                resultLabel = "콜리"
                                 break;
                             case "Border collie":
-                                resultLabel = "아이리시 테리어"
+                                resultLabel = "보더 콜리"
                                 break;
                             case "Bouvier des Flandres, Bouviers des Flandres":
-                                resultLabel = "노르포크 테리어"
+                                resultLabel = "부비에 데 플랑드르"
                                 break;
                             case "Rottweiler":
-                                resultLabel = "노르위치 테리어"
+                                resultLabel = "로트바일러"
                                 break;
                             case "German shepherd, German shepherd dog, German police dog, alsatian":
-                                resultLabel = "요크셔 테리어"
+                                resultLabel = "저먼 셰퍼드"
                                 break;
                             case "Doberman, Doberman pinscher":
-                                resultLabel = "와이어헤어드 폭스 테리어"
+                                resultLabel = "도베르만 핀셔"
                                 break;
                             case "miniature pinscher":
-                                resultLabel = "레이크랜드 테리어"
+                                resultLabel = "미니어처 핀셔"
                                 break;
                             case "Greater Swiss Mountain dog":
-                                resultLabel = "실리함 테리어"
+                                resultLabel = "그레이트 스위스 마운틴 도그"
                                 break;
                             case "Bernese mountain dog":
-                                resultLabel = "에어데일"
+                                resultLabel = "버니즈 마운틴 도그일"
                                 break;
                             case "Appenzeller":
-                                resultLabel = "카이언"
+                                resultLabel = "아펜젤러 세넨훈드"
                                 break;
                             case "EntleBucher":
-                                resultLabel = "호주 테리어"
+                                resultLabel = "엔틀버쳐 마운틴 독"
                                 break;
                             case "boxer":
-                                resultLabel = "댄디 딘몬트"
+                                resultLabel = "복서"
                                 break;
                             case "bull mastiff":
-                                resultLabel = "보스톤 불"
+                                resultLabel = "불마스티프"
                                 break;
                             case "Tibetan mastiff":
-                                resultLabel = "미니어쳐 슈나우저"
+                                resultLabel = "티베탄 마스티프"
                                 break;
                             case "French bulldog":
-                                resultLabel = "자이언트 슈나우저"
+                                resultLabel = "프렌치 불도그"
                                 break;
                             case "Great Dane":
-                                resultLabel = "스탠다드 슈나우저"
+                                resultLabel = "그레이트 데인"
                                 break;
                             case "Saint Bernard, St Bernard":
-                                resultLabel = "치와와"
+                                resultLabel = "세인트버나드"
                                 break;
                             case "Eskimo dog, husky":
-                                resultLabel = "쨉쨉!"
+                                resultLabel = "아메리칸 에스키모 도그"
                                 break;
                             case "malamute, malemute, Alaskan malamute":
-                                resultLabel = "마티즈"
+                                resultLabel = "알래스칸 말라뮤트"
                                 break;
                             case "Siberian husky":
-                                resultLabel = "페키니즈"
+                                resultLabel = "시베리안 허스키"
                                 break;
                             case "dalmatian, coach dog, carriage dog":
-                                resultLabel = "시츄!"
+                                resultLabel = "달마티안"
                                 break;
                             case "affenpinscher, monkey pinscher, monkey dog":
-                                resultLabel = "블렌하임"
+                                resultLabel = "아펜핀셔"
                                 break;
                             case "basenji":
-                                resultLabel = "파필리온"
+                                resultLabel = "바센지"
                                 break;
                             case "pug, pug-dog":
-                                resultLabel = "토이테리어"
+                                resultLabel = "퍼그"
                                 break;
                             case "Leonberg":
-                                resultLabel = "로데시안"
+                                resultLabel = "레온베르거"
                                 break;
                             case "Newfoundland, Newfoundland dog":
-                                resultLabel = "애프간 하운드"
+                                resultLabel = "뉴펀들랜드"
                                 break;
                             case "Great Pyrenees":
-                                resultLabel = "바셋?"
+                                resultLabel = "그레이트 피레니즈"
                                 break;
                             case "Samoyed, Samoyede":
-                                resultLabel = "비글!!!"
+                                resultLabel = "사모예드견"
                                 break;
                             case "Pomeranian":
-                                resultLabel = "블러드하운드"
+                                resultLabel = "포메라니안"
                                 break;
                             case "chow, chow chow":
-                                resultLabel = "블루틱"
+                                resultLabel = "차우차우"
                                 break;
                             case "keeshond":
-                                resultLabel = "블랙 앤 탠"
+                                resultLabel = "키스혼드"
                                 break;
                             case "Brabancon griffon":
-                                resultLabel = "워커 하운드"
+                                resultLabel = "브뤼셀 그리펀"
                                 break;
                             case "Pembroke, Pembroke Welsh corgi":
-                                resultLabel = "잉글리시 폭스하운드"
+                                resultLabel = "펨브록 웰시 코기"
                                 break;
                             case "Cardigan, Cardigan Welsh corgi":
-                                resultLabel = "레드본"
+                                resultLabel = "카디건 웰시 코기"
                                 break;
                             case "toy poodle":
-                                resultLabel = "보르조이"
+                                resultLabel = "토이푸들"
                                 break;
                             case "miniature poodle":
-                                resultLabel = "아이리시 월프하운드"
+                                resultLabel = "미니어처 푸들"
                                 break;
                             case "standard poodle":
-                                resultLabel = "이탈리안 그레이하운드"
+                                resultLabel = "푸들"
                                 break;
                             case "Mexican hairless":
-                                resultLabel = "위펫"
+                                resultLabel = "멕시칸 헤어리스 도그"
                                 break;
                             case "timber wolf, grey wolf, gray wolf, Canis lupus":
-                                resultLabel = "아비잔 하운드"
+                                resultLabel = "회색늑대(?!)"
                                 break;
                             case "white wolf, Arctic wolf, Canis lupus tundrarum":
-                                resultLabel = "노르웨이 엘크하운드"
+                                resultLabel = "북극늑대(?!)"
                                 break;
                             case "red wolf, maned wolf, Canis rufus, Canis niger":
-                                resultLabel = "오터 하운드"
+                                resultLabel = "붉은늑대(?!)"
                                 break;
                             case "coyote, prairie wolf, brush wolf, Canis latrans":
-                                resultLabel = "살루키"
+                                resultLabel = "코요테(?!)"
                                 break;
                             case "dingo, warrigal, warragal, Canis dingo":
-                                resultLabel = "스코티시 디어하운드"
+                                resultLabel = "딩고"
                                 break;
                             case "dhole, Cuon alpinus":
-                                resultLabel = "웨이마르너"
+                                resultLabel = "승냥이(?!)"
                                 break;
                             case "African hunting dog, hyena dog, Cape hunting dog, Lycaon pictus":
-                                resultLabel = "스타포드시어"
+                                resultLabel = "아프리카들개"
                                 break;
                             default:
                                 resultLabel = "강아지가 아닌 데이터입니다."
@@ -480,8 +480,8 @@ async function predict() {
                                 resultCeleb = "학습 데이터: <i>초 챙, 루나 러브굿</i> 등등..."
                                 break;
                             default:
-                                resultTitle = "당신은 혹시 머글?"
-                                resultExplain = "AI가 당신의 기숙사를 찾을 수 없습니다! 얼굴이 잘 나온 사진을 사용하면 더 알맞은 데이터를 얻을 수 있습니다."
+                                resultTitle = "강아쥐"
+                                resultExplain = "아직 이 부분은 안 씀"
                                 resultCeleb = "학습 데이터: <i>없음</i>"
                         }
                         console.log(resultTitle);
