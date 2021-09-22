@@ -61,7 +61,7 @@ async function predict() {
 
                     for (let i = 0; i < maxPredictions; i++) {
                         if (predictions[i].probability.toFixed(2) == 0.00) {
-
+                            barWidth = '0%';
                         } else if (predictions[i].probability.toFixed(2) < 0.1) {
                             barWidth = '4%';
                         } else {
@@ -189,7 +189,7 @@ async function predict() {
                                 resultLabel = "실리햄 테리어"
                                 break;
                             case "Airedale, Airedale terrier":
-                                resultLabel = "에어데일 테리어" //ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ
+                                resultLabel = "에어데일 테리어"
                                 break;
                             case "cairn, cairn terrier":
                                 resultLabel = "케언 테리어"
