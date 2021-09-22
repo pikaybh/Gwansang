@@ -92,7 +92,7 @@
             <div class="file-upload">
                 <div class="loadingOpenCV">
                     <h3 class="loadingOpenCVH">AI를 준비 중입니다...</h3>
-                    <p>네트워크 환경에 따라 지체 될 수 있습니다.</p>
+                    <p>네트워크 환경에 따라 지연 될 수 있습니다.</p>
                 </div>
                 <div class="image-upload-wrap">
                     <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
