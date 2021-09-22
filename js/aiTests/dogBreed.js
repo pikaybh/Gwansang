@@ -79,7 +79,7 @@ async function predict() {
                             resultLabel = "재패니즈 친"
                             break;
                         case "Maltese dog, Maltese terrier, Maltese":
-                            resultLabel = "말티즈, 말티즈 테리어"
+                            resultLabel = "말티즈"
                             break;
                         case "Pekinese, Pekingese, Peke":
                             resultLabel = "페키니즈"
@@ -91,10 +91,10 @@ async function predict() {
                             resultLabel = "킹 찰스 스파니엘"
                             break;
                         case "papillon":
-                            resultLabel = "빠삐용"
+                            resultLabel = "파피용"
                             break;
                         case "toy terrier":
-                            resultLabel = "러스키"
+                            resultLabel = "토이 테리어"
                             break;
                         case "Rhodesian ridgeback":
                             resultLabel = "로디지안 리지백"
@@ -453,98 +453,98 @@ async function predict() {
 
                     switch (predictions[0].className) {
                         case "Chihuahua":
-                            resultTitle = ""
-                            resultExplain = ""
+                            resultTitle = "치와와"
+                            resultExplain = "헌신적인 | 경계심인 많은 | 공격적인 | 생기있는 | 민첩한 | 용맹스러운<br><br>치와와를 상징하는 단어는 분노이다. 작은체구에도 불구하고 성격이 불같이 매우 거칠고 공격성이 맹렬하며, 고집이 무척 세고 질투심이 많으며 작은 체구에도 불구하고 겁이 없는 견종이다."
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "Japanese spaniel":
-                            resultTitle = ""
-                            resultExplain = ""
+                            resultTitle = "재패니즈 친"
+                            resultExplain = "총명한 | 경계심이 많은 | 애정이 넘치는 | 충성스러운 | 독립심이 강한<br><br>처음엔 중국의 개였으나 중국에서 신라로 이 견종이 보내졌고, 신라에서 이 견종을 일본으로 보내면서 일본 원산의 소형견으로 알려지게 되었다. 그 당시 일본에서는 귀족들만 키울 수 있을 정도로 귀했다고 한다."
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "Maltese dog, Maltese terrier, Maltese":
-                            resultTitle = ""
-                            resultExplain = ""
+                            resultTitle = "말티즈"
+                            resultExplain = "장난스러운 | 온순한 | 반응이 빠른 | 애정이 풍부한 | 유순한 | 활동적인<br><br>활발하고 놀기를 좋아하는 성격이다. 주인에게 애교를 잘 부리고 주인이 집에 들어오면 방방 뛰는 등의 모습을 쉽게 볼 수 있다. 눈치가 빨라서 주인의 마음을 민감하게 감지한다. 반면, 자기 주장을 강하게 하고 고집이 있는 견종이다. 밥, 간식, 산책 등 자기가 원하는 바에 대해 적극적으로 의사를 표출하는 편이다."
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "Pekinese, Pekingese, Peke":
-                            resultTitle = ""
-                            resultExplain = ""
+                            resultTitle = "페키니즈"
+                            resultExplain = "완고한 | 애정이 풍부한 | 총명한 | 공격적인 | 고집스러운 | 성격이 좋은<br><br>인간에게 안기는 것을 그다지 좋아하지 않는 편이어서 개인데도 고양이같은 성격으로 알려져 있다. 상당히 독립적이고 귀찮게 구는것을 매우 싫어하여 빈번하게 스킨쉽을 할 경우 문다. 도도하고 자존심이 강하여 어지간해선 몇몇 가족 구성원을 자기 아래 서열로 본다."
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "Shih-Tzu":
-                            resultTitle = ""
-                            resultExplain = ""
+                            resultTitle = "시추"
+                            resultExplain = "장난스러운 | 원기왕성한 | 충성스러운 | 활동적인 | 영리한 | 우호적인 | 밝은 | 용맹스러운<br><br>개체에 따라 내성적이거나 외향적일 수 있지만, 사람을 대상으로는 사교적인 편이다. 사람을 너무 좋아해서 자신에게 이쁘다고 하는 사람을 정신줄 놓고 좋아하는 경우도 있다. 또한 자신을 좋아하는 사람에겐 좋다는 표시를 온몸으로 해댄다.<br> &quot;혼자있는 외로움&quot;을 잘 참아내기 때문에 집을 자주 비우는 현대인이 기르기에 적합하다."
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "Blenheim spaniel":
-                            resultTitle = ""
-                            resultExplain = ""
+                            resultTitle = " 천사견 캐벌리어"
+                            resultExplain = "애정이 풍부한 | 온화한 | 조용한 | 장난스러운 | 밝은 | 애정이 넘치는<br><br>온화한 성격과 예쁜 외모, 주인의 활동 수준에 자기 활동을 맞춰주는 배려심 등 천사견이라 해도 과언이 아니나, 유전적 질환을 타고나는 경우가 많아 견주를 안타깝게 하는 견종이기도 하다."
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "papillon":
-                            resultTitle = ""
-                            resultExplain = ""
+                            resultTitle = "나비귀 빠삐용"
+                            resultExplain = "총명한 | 우호적인 | 에너제틱한 | 밝은 | 경계심이 많은<br><br>빠삐용은 어떻게 훈육을 하느냐에 따라 매우 다른 성격을 나타낼 수 있다. 일반적으로 머리가 좋고 주인에게 사랑 받는 것을 좋아하는 성향을 가지고 있지만, 너무 응석받이로 키우게 되면 매우 예민하고 까탈스러운 성향을 드러내기도 한다."
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "toy terrier":
-                            resultTitle = ""
-                            resultExplain = ""
+                            resultTitle = "토이 테리어"
+                            resultExplain = "총명한 | 우호적인 | 경계심이 많은 | 장난스러운 | 충성스러운 | 활발한<br><br>호기심이 많은 편인데 똑똑하기도해서 무엇이든 빨리 배울 수 있다. 따라서, 훈련을 잘 시키면 다양한 명령을 따를 수 있다. 성견이 되어서도 이러한 성격이 쭉 이어져서 &quot;puppies for life&quot;라고 불리기도 한다. 토이 테리어는 분리불안증에 잘 걸리지 않는 견종으로 유명하다."
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "Rhodesian ridgeback":
-                            resultTitle = ""
-                            resultExplain = ""
+                            resultTitle = "로디지안 리지백"
+                            resultExplain = "예민한 | 장난을 좋아하는 | 총명한 | 품위있는 | 의지가 강한 | 충성스러운<br><br>로디지아 리지백은 순종을 잘하며 주인에게 헌신적이지만, 낯선 사람에게는 다소 소극적이다. 또한, 고집이 세며 쉽게 싫증을 내는 경향이 있기 때문에 로디지아 리지백을 키우기에 적합한 사람은 이 개의 욕구를 배출해줄 수 있는 출구를 제공할 수 있어야 하며, 단호하게 훈련을 시킬 줄 아는 사람이어야 하므로 초보자는 부적합하다."
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "Afghan hound, Afghan":
                             resultTitle = ""
-                            resultExplain = ""
+                            resultExplain = "<br><br>"
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "basset, basset hound":
                             resultTitle = ""
-                            resultExplain = ""
+                            resultExplain = "<br><br>"
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "beagle":
                             resultTitle = ""
-                            resultExplain = ""
+                            resultExplain = "<br><br>"
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "bloodhound, sleuthhound":
                             resultTitle = ""
-                            resultExplain = ""
+                            resultExplain = "<br><br>"
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "bluetick":
                             resultTitle = ""
-                            resultExplain = ""
+                            resultExplain = "<br><br>"
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "black-and-tan coonhound":
                             resultTitle = ""
-                            resultExplain = ""
+                            resultExplain = "<br><br>"
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "Walker hound, Walker foxhound":
                             resultTitle = ""
-                            resultExplain = ""
+                            resultExplain = "<br><br>"
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "English foxhound":
                             resultTitle = ""
-                            resultExplain = ""
+                            resultExplain = "<br><br>"
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "redbone":
                             resultTitle = ""
-                            resultExplain = ""
+                            resultExplain = "<br><br>"
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "borzoi, Russian wolfhound":
                             resultTitle = ""
-                            resultExplain = ""
+                            resultExplain = "<br><br>"
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                         case "Irish wolfhound":
                             resultTitle = ""
