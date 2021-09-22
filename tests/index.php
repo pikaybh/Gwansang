@@ -44,7 +44,6 @@
     ?>
     <script defer src="../js/main.js"></script>
     <script defer src="../js/utils.js"></script>
-    <script defer src="../js/ImageNet.js"></script>
 
     <script defer class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>

@@ -8,7 +8,7 @@
         public $switch = "<link rel='stylesheet' href='../css/switch.false.css'>";
         public $switchName = "";
         public $script = "<script defer src='../js/aiTests/dogBreed.js' type='text/javascript'></script>";
-        public $detects = "<script defer src='../js/dogFaceDetect.js' type='text/javascript'></script>";
+        public $detects = "";//<script defer src='../js/dogFaceDetect.js' type='text/javascript'></script>";
     }
 
 ?>
