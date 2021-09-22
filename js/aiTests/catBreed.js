@@ -62,7 +62,7 @@ async function predict() {
 
                     for (let i = 0; i < maxPredictions; i++) {
                         if (predictions[i].probability.toFixed(2) == 0.00) {
-                            barWidth = '0%';
+                            barWidth = '2%';
                         } else if (predictions[i].probability.toFixed(2) < 0.1) {
                             barWidth = '4%';
                         } else {
