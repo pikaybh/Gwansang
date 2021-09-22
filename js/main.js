@@ -76,7 +76,7 @@ function AItelling() {
 
 /*screen shot*/
 function screenShot() {    
-    html2canvas(document.getElementsByClassName('main-sec'), {}).then(function (canvas) {
+    html2canvas(document.getElementById('main-sec'), {}).then(function (canvas) {
         saveAs(canvas.toDataURL(), 'InChin.jpg');
         console.log("screen captured");
     });

@@ -76,7 +76,7 @@
                 echo $testClass->title . $testClass->subtitle;
             ?>
         </div>
-        <section class="main-sec">
+        <section class="main-sec" id="main-sec">
             <!-- Rounded switch -->
             <span class="switch-title">
                 <?php
