@@ -16,7 +16,7 @@ async function init() {
     $('.loading').show();
 
     // delete former informations 
-    labelContainer = document.getElementById('label-container');
+    //labelContainer = document.getElementById('label-container');
     //for (let i = 0; i < maxPredictions; i++) {
     //    labelContainer.childNodes[i].innerHTML = "";
     //}
@@ -47,8 +47,6 @@ async function predict() {
             $('.file-upload-content').show();
             console.log('Predictions: ');
             console.log(predictions);
-
-            document.getElementById("identity").innerHTML = predictions[0].className + " " + predictions[0].probability.toFixed(2) * 100 + "%";
 
             const face = 1;
             if (face < 0) {
@@ -1193,10 +1191,15 @@ async function predict() {
                     document.getElementById("identity").innerHTML = title
                     document.getElementById("contents").innerHTML = explain + celeb;
 
+                    if (resultLabel == "강아지가 아닌 데이터입니다.") {
+                        var label = "<h3></h3>";
+                        var bar = "<div></div>";
+                    } else {
+                        var label = "<h3 class=' bar-title " + predictions[i].className + "'>" + resultLabel + "</h3>";
+                        var bar = "<div class='" + predictions[i].className + "-bar-container bar-container'><div class='" + predictions[i].className + "-bar-box'></div><div class=' " + predictions[i].className + "-bar bar' style='width: " + barWidth + "'><span class='d-block percent-text'>" + Math.round(predictions[i].probability.toFixed(2) * 100) + "%</span></div></div>";
+                    }
                     var resultGraph = "<h3 class='result-graph'>분석결과 : </h3>"
                     document.getElementById("analTitle").innerHTML = resultGraph;
-                    var label = "<h3 class=' bar-title " + predictions[i].className + "'>" + resultLabel + "</h3>";
-                    var bar = "<div class='" + predictions[i].className + "-bar-container bar-container'><div class='" + predictions[i].className + "-bar-box'></div><div class=' " + predictions[i].className + "-bar bar' style='width: " + barWidth + "'><span class='d-block percent-text'>" + Math.round(predictions[i].probability.toFixed(2) * 100) + "%</span></div></div>";
                     var analysis = "<div class='anal' id='label-container'>" + label + bar + "</div>"
                     labelContainer.childNodes[i].innerHTML = analysis;
                 }
