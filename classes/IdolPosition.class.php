@@ -9,6 +9,7 @@
         public $switchName = "";
         public $script = "<script defer src='../js/aiTests/idolPosition.js' type='text/javascript'></script>";
         public $detects = "<script defer src='../js/faceDetect.js' type='text/javascript'></script>";
+        
     }
 
 ?>
