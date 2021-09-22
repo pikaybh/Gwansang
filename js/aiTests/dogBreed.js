@@ -473,8 +473,8 @@ async function predict() {
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "Shih-Tzu":
-                            resultTitle = "시추"
-                            resultExplain = "장난스러운 | 원기왕성한 | 충성스러운 | 활동적인 | 영리한 | 우호적인 | 밝은 | 용맹스러운<br><br>개체에 따라 내성적이거나 외향적일 수 있지만, 사람을 대상으로는 사교적인 편이다. 사람을 너무 좋아해서 자신에게 이쁘다고 하는 사람을 정신줄 놓고 좋아하는 경우도 있다. 또한 자신을 좋아하는 사람에겐 좋다는 표시를 온몸으로 해댄다.<br>&nbsp; &quot;혼자있는 외로움&quot;을 잘 참아내기 때문에 집을 자주 비우는 현대인이 기르기에 적합하다."
+                            resultTitle = "사자견 시추"
+                            resultExplain = "장난스러운 | 원기왕성한 | 충성스러운 | 활동적인 | 영리한 | 우호적인<br><br>개체에 따라 내성적이거나 외향적일 수 있지만, 사람을 대상으로는 사교적인 편이다. 사람을 너무 좋아해서 자신에게 이쁘다고 하는 사람을 정신줄 놓고 좋아하는 경우도 있다. 또한 자신을 좋아하는 사람에겐 좋다는 표시를 온몸으로 해댄다. &quot;혼자있는 외로움&quot;을 잘 참아내기 때문에 집을 자주 비우는 현대인이 기르기에 적합하다."
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "Blenheim spaniel":
@@ -538,27 +538,27 @@ async function predict() {
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "redbone":
-                            resultTitle = ""
-                            resultExplain = "<br><br>"
+                            resultTitle = "레드본 쿤하운드"
+                            resultExplain = "에너제틱한 | 붙임성이 있는 | 애정이 풍부한 | 독립심이 강한<br><br>만약 레드본 쿤하운드를 어릴 때부터 집안에서 기른다면 가족의 생활에 잘 적응할 수는 있지만, 주인과 그 가족에겐 아주 상냥하게 굴면서도 다른 사람들에겐 어느 정도의 경계심을 보이기 때문에 아파트 등 공동주택에서 기르기에는 부적절 하다. 사냥개의 특성상 탁 트인 공간을 좋아하기 때문에 마당이 있는 단독주택이나 전원주택에서 기르는 것이 좋으며, 하운드 견종 중에서도 초보자가 쉽게 기를 수 있는 견종으로도 알려져 있지만, 운동량을 만족시켜 주어야 한다."
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "borzoi, Russian wolfhound":
-                            resultTitle = ""
-                            resultExplain = "<br><br>"
+                            resultTitle = "러시안 국견(이었던) 보르조이"
+                            resultExplain = "조용한 | 온화한 | 총명한 | 독립심이 강한 | 탄탄한<br><br>한때 늑대 사냥용으로 키워졌던만큼 보르조이는 많은 운동량과 복종 훈련이 필요하다. 또한 보르조이는 예민하고 똑똑해서, 주인의 움직임이나 생각을 잘 관찰하고 이해하여 행동한다. 주인곁에 가까이와서 기대는 애정어린 성품을 갖고 있기도 하지만 예민함이 지나쳐지면 신경질적인면이 다분해지므로 성격관리에도 주의를 기울여야 한다."
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                         case "Irish wolfhound":
-                            resultTitle = ""
-                            resultExplain = "<br><br>"
+                            resultTitle = "아이리시 울프하운드"
+                            resultExplain = "상냥한 | 충성스러운 | 관대한 | 품위있는 | 인내심 있는<br><br>건장한 외모에 걸맞지 않을 정도로 온순하고 상냥한 성격이며 감수성이 많아서 차분하고, 참을성 또한 강하다. 어린아이나 다른 개와도 사이좋게 지낼 수 있지만, 자신의 신체 크기를 고려하지 않고 크게 움직여서 장난치다가 무심코 상대를 다치게 할 수도 있다. [출처 : <a href='https://gyogamman.com/irish-wolfhound/'>교감맨</a>]"
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "Italian greyhound":
-                            resultTitle = ""
-                            resultExplain = "<br><br>"
+                            resultTitle = "이탈리안 그레이하운드"
+                            resultExplain = "애정이 풍부한 | 장난을 좋아하는 | 총명한 | 탄탄한 | 민첩한 | 붙임성이 있는<br><br>이탈리안 그레이하운드는 예민하고 신경질적인 면도 있지만, 한편으론 온화하고 놀기를 좋아하는 활발한 면도 있어서 훈육이 쉬운 견종이다. 가족들에게 애정을 보이고 순종적이고 온화한 성격인 반면, 낯선 사람에게는 거리를 두고 특유의 날카로운 감각 때문에 신경질적이기도 하다."
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "whippet":
-                            resultTitle = ""
-                            resultExplain = "<br><br>"
+                            resultTitle = "휘핏"
+                            resultExplain = "애정이 풍부한 | 조용한 | 총명한 | 우호적인 | 생기있는 | 온화한<br><br>​휘핏의 기질은 똑똑하고, 활기차며 애정이 넘친다. 매우 헌신적인 반려견이지만 극도로 예민하기도 해서, 육체적으로나 정신적으로나 절대로 거칠게 훈련해서는 안되는 견종이다. 훈련할때에는 다양한 것들을 접할 수 있도록 해줘야 한다."
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "Ibizan hound, Ibizan Podenco":
@@ -570,55 +570,55 @@ async function predict() {
                         case "Norwegian elkhound, elkhound":
                             resultLabel = "노르웨이언 엘크하운드"
                             resultTitle = ""
-                            resultExplain = ""
+                            resultExplain = "<br><br>"
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "otterhound, otter hound":
                             resultLabel = "오터 하운드"
                             resultTitle = ""
-                            resultExplain = ""
+                            resultExplain = "<br><br>"
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "Saluki, gazelle hound":
                             resultLabel = "살루키"
                             resultTitle = ""
-                            resultExplain = ""
+                            resultExplain = "<br><br>"
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "Scottish deerhound, deerhound":
                             resultLabel = "스코티시 디어하운드"
                             resultTitle = ""
-                            resultExplain = ""
+                            resultExplain = "<br><br>"
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "Weimaraner":
                             resultLabel = "와이머라너"
                             resultTitle = ""
-                            resultExplain = ""
+                            resultExplain = "<br><br>"
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "Staffordshire bullterrier, Staffordshire bull terrier":
                             resultLabel = "스타포드셔 불 테리어"
                             resultTitle = ""
-                            resultExplain = ""
+                            resultExplain = "<br><br>"
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier":
                             resultLabel = "아메리칸 스태퍼드셔 테리어"
                             resultTitle = ""
-                            resultExplain = ""
+                            resultExplain = "<br><br>"
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "Bedlington terrier":
                             resultLabel = "베들링턴 테리어"
                             resultTitle = ""
-                            resultExplain = ""
+                            resultExplain = "<br><br>"
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "Border terrier":
                             resultLabel = "보더 테리어"
                             resultTitle = ""
-                            resultExplain = ""
+                            resultExplain = "<br><br>"
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                             break;
                         case "Kerry blue terrier":
