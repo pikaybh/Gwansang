@@ -27,9 +27,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
         <?php            
-            echo $testClass->test . " | ";
+            echo $testClass->test . " | 인공지능 친구들";
         ?>
-        인공지능 친구들
     </title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
