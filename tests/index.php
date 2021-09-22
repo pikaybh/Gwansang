@@ -114,7 +114,7 @@
                         </div>
                         <div id="label-container" id="label-container"></div>
                     </div>
-                    <div class="try-again-btn">다른 사진으로 재시도
+                    <div class="try-again-btn">다른 사진으로 재시도 <span class="material-icons">replay</span>
                         <input class="reupload-input" type='file' onchange="readURL(this);" accept="image/*" />
                     </div>
                 </div>
