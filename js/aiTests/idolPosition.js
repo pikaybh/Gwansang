@@ -144,7 +144,7 @@ async function predict() {
                 document.getElementById("identity").innerHTML = title
                 document.getElementById("contents").innerHTML = explain + celeb;
 
-                var resultGraph = "<h3 class='result-graph'>분석결과 : </h3>"
+                var resultGraph = "<h3 class='result-graph'>☙분석결과❧</h3>"
                 document.getElementById("analTitle").innerHTML = resultGraph;
                 var label = "<h3 class=' bar-title " + prediction[i].className + "'>" + resultLabel + "</h3>";
                 var bar = "<div class='" + prediction[i].className + "-bar-container bar-container'><div class='" + prediction[i].className + "-bar-box'></div><div class=' " + prediction[i].className + "-bar bar' style='width: " + barWidth + "'><span class='d-block percent-text'>" + Math.round(prediction[i].probability.toFixed(2) * 100) + "%</span></div></div>";
