@@ -1,5 +1,9 @@
 <?php
 
+    include 'autoloader.inc.php';
+
+    $login = new login($username, $pwd);
+
 //sign up functions
 function emptyInputSignup($name, $email, $username, $pwd, $pwdRepeat) {
     $result;

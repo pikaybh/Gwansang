@@ -12,8 +12,8 @@
         } else if ($_POST["AItest"] == "catBreed") {
             header("location: ../tests/?test=catBreed");
             exit();
-        } else if ($_POST["AItest"] == "dogBreed") {
-            header("location: ../tests/?test=dogBreed");
+        } else if ($_POST["AItest"] == "petBreed") {
+            header("location: ../tests/?test=petBreed");
             exit();
         } else if ($_POST["AItest"] == "idolPosition") {
             header("location: ../tests/?test=idolPosition");

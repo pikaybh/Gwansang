@@ -122,8 +122,8 @@ async function predict() {
                             resultCeleb = "학습 데이터: <i>초 챙, 루나 러브굿</i> 등등..."
                             break;
                         default:
-                            resultTitle = "강아지를 감지하지 못했습니다!"
-                            resultExplain = "더 정확한 결과를 원한다면 강이지가 잘 나오게 다시 찍어주세요. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                            resultTitle = "고양이를 감지하지 못했습니다!"
+                            resultExplain = "더 정확한 결과를 원한다면 고양이가 잘 나오게 다시 찍어주세요. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
                             resultCeleb = "학습 모델: <i>TensorFlow.js Open Source ML - MobileNet</i>"
                     }
 

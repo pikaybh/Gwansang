@@ -4,15 +4,15 @@
 
     if (isset($_GET["test"])) {
         if($_GET["test"] == "theSortingHat") {
-            $testClass = new hogwarts();
+            $testClass = new test("hogwarts", "호그와트 기숙사 테스트", "<h1>호그와트 기숙사 배정 테스트</h1>", "<h2>내가 만약 호그와트 학생이라면?</h2>", "false", "", "faceDetect");
         } else if($_GET["test"] == "fruitFace") {
-            $testClass = new fruitFace();
+            $testClass = new test("fruitFace", "과즙상 테스트", "<h1>과즙상 테스트</h1>", "<h2>AI가 알려주는 당신의 과즙상!</h2>", "gender", "성별", "faceDetect");
         } else if($_GET["test"] == "catBreed") {
-            $testClass = new catBreed();
-        } else if($_GET["test"] == "dogBreed") {
-            $testClass = new dogBreed();
+            $testClass = new test("catBreed", "고양이 품종", "<h1>고양이 품종</h1>", "<h2>AI가 알려주는 우리 주인님 족보!</h2>", "pet");
+        } else if($_GET["test"] == "petBreed") {
+            $testClass = new test("petBreed", "애완동물 품종","<h1>애완동물 품종</h1>", "<h2>AI가 알려주는 우리 반려동물 족보!</h2>", "pet", "애완동물", "");
         } else if($_GET["test"] == "idolPosition") {
-            $testClass = new idolPosition();
+            $testClass = new test("idolPosition", "아이돌 테스트", "<h1>아이돌 테스트</h1>", "<h2>AI가 보는 내 포지션은?!</h2>", "false", "", "faceDetect");
         } else {
             header("location: ../404.php?error=wrongTestList");
             exit();

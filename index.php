@@ -125,12 +125,12 @@
             <li class="homepage-li">
                 <section>
                     <form id="testLink5" action="./includes/tests.inc.php" method="post">
-                        <input type="hidden" name="AItest" value="dogBreed" />
+                        <input type="hidden" name="AItest" value="petBreed" />
                         <a href="javascript:void(0)" class="testList" onclick="document.getElementById('testLink5').submit();">
                             <div>
                                 <div class="testPic"></div>
-                                <h3 class="testTitle">강아지 품종 알아보기!</h3>
-                                <h4 class="testTitle">주인님! AI가 알려주는 제 품종 알아보고 가시개!🐶🐕🐾</h4>
+                                <h3 class="testTitle">강아지/고양이 품종 알아보기!</h3>
+                                <h4 class="testTitle">AI가 사진으로 판단하는 애완동물 족보!🐶🐱🐾</h4>
                             </div>
                         </a>
                     </form>
@@ -140,7 +140,7 @@
                 <div class="divline"></div>
             </li>
             <!--고양이 족보 테스트-->
-            <li class="homepage-li">
+            <!--<li class="homepage-li">
                 <section>
                     <form id="testLink4" action="./includes/tests.inc.php" method="post">
                         <input type="hidden" name="AItest" value="catBreed" />
@@ -153,7 +153,7 @@
                         </a>
                     </form>
                 </section>
-            </li>
+            </li>-->
         </ul>
     </article>
 
