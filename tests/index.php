@@ -12,7 +12,7 @@
         } else if($_GET["test"] == "petBreed") {
             $testClass = new test("petBreed", "애완동물 품종","<h1>애완동물 품종</h1>", "<h2>AI가 알려주는 우리 반려동물 족보!</h2>", "pet", "애완동물", "");
         } else if($_GET["test"] == "idolPosition") {
-            $testClass = new test("idolPosition", "아이돌 테스트", "<h1>아이돌 테스트</h1>", "<h2>AI가 보는 내 포지션은?!</h2>", "false", "", "faceDetect");
+            $testClass = new test("idolPosition", "아이돌 테스트", "<h1>아이돌 테스트</h1>", "<h2>AI가 보는 내 포지션은?!</h2>", "gender", "성별", "faceDetect");
         } else {
             header("location: ../404.php?error=wrongTestList");
             exit();
@@ -50,6 +50,8 @@
     <script defer src="../js/utils.js"></script>
 
     <script defer class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+    <!-- Load TesnsorFlow for Teachalemachine.js-->
     <script defer src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
 
     <!-- Load Teachablemachine.js-->

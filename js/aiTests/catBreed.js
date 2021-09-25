@@ -6,8 +6,10 @@ var resultLabel, resultTitle, resultExplain, resultCeleb, barWidth;
 // Load the image model
 async function init() {
     AIthinking();
-    $('.loader').show();
-    $('.loading').show();
+    show("loader");
+    show("loading");
+    //$('.loader').show();
+    //$('.loading').show();
 
     // delete former informations 
     labelContainer = document.getElementById('label-container');

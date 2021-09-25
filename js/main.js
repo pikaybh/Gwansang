@@ -21,7 +21,8 @@ function readURL(input) {
         var reader = new FileReader();
 
         reader.onload = function (e) {
-            $('.image-upload-wrap').hide();
+            //$('.image-upload-wrap').hide();
+            hide("image-upload-wrap");
             $('.file-upload-image').attr('src', e.target.result);
         };
 
@@ -38,14 +39,17 @@ function readURL(input) {
 
 function removeUpload() {
     $('.file-upload-input').replaceWith($('.file-upload-input').clone());
-    $('.file-upload-content').hide();
-    $('.image-upload-wrap').show();
+    //$('.file-upload-content').hide();
+    hide("file-upload-content");
+    //$('.image-upload-wrap').show();
+    show("image-upload-wrap");
 }
 
 /* copy url */
 function copyurl() {
     var url = window.document.location.href;
     var textarea = document.createElement("textarea");
+
     document.body.appendChild(textarea);
     textarea.value = url;
     textarea.select();
@@ -54,6 +58,23 @@ function copyurl() {
     console.log("copied a link url");
     alert("링크가 복사되었습니다.")
 }
+
+/* hide and show function */
+
+function hide(foo) {
+    var hideItems = document.getElementsByClassName(foo);
+
+    for (var i = 0; i < hideItems.length; i ++) {
+        hideItems[i].style.display = 'none';
+    }
+}
+
+function show(foo) {
+    var showItems = document.getElementsByClassName(foo);
+
+    for (var i = 0; i < showItems.length; i ++) {
+        showItems[i].style.display = 'block';
+    }}
 
 /* loader box*/
 function AIthinking() {

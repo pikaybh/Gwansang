@@ -11,8 +11,10 @@ async function init() {
     const metadataURL = URL + 'metadata.json';
 
     AIthinking();
-    $('.loader').show();
-    $('.loading').show();
+    show("loader");
+    show("loading");
+    //$('.loader').show();
+    //$('.loading').show();
 
     // delete former informations 
     labelContainer = document.getElementById('label-container');
@@ -36,9 +38,12 @@ async function init() {
 // image through the image model
 async function predict() {
     AItelling();
-    $('.loader').hide();
-    $('.loading').hide();
-    $('.file-upload-content').show();
+    hide("loader");
+    hide("loading");
+    show("file-upload-content");
+    //$('.loader').hide();
+    //$('.loading').hide();
+    //$('.file-upload-content').show();
 
     if (faces.size() < 1) {
         // no face detected

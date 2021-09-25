@@ -129,7 +129,7 @@
                         <a href="javascript:void(0)" class="testList" onclick="document.getElementById('testLink5').submit();">
                             <div>
                                 <div class="testPic"></div>
-                                <h3 class="testTitle">강아지/고양이 품종 알아보기!</h3>
+                                <h3 class="testTitle">강아지/고양이 족보 찾기!</h3>
                                 <h4 class="testTitle">AI가 사진으로 판단하는 애완동물 족보!🐶🐱🐾</h4>
                             </div>
                         </a>

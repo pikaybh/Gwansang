@@ -5,15 +5,19 @@ var resultLabel, resultTitle, resultExplain, resultCeleb, barWidth;
 // Load the model.
 mobilenet.load().then(model => {
     console.log("mobileNet ready!");
-    $('.loadingOpenCV').hide();
-    $('.image-upload-wrap').show();
+    hide("loadingOpenCV");
+    show("image-upload-wrap");
+    //$('.loadingOpenCV').hide();
+    //$('.image-upload-wrap').show();
 });
 
 // Load the image model
 async function init() {
     AIthinking();
-    $('.loader').show();
-    $('.loading').show();
+    show("loader");
+    show("loading");
+    //$('.loader').show();
+    //$('.loading').show();
 
     // delete former informations 
     //labelContainer = document.getElementById('label-container');
@@ -42,9 +46,12 @@ async function predict() {
         // Classify the image.
         model.classify(img).then(predictions => {
             AItelling();
-            $('.loader').hide();
-            $('.loading').hide();
-            $('.file-upload-content').show();
+            hide("loader");
+            hide("loading");
+            show("file-upload-content");
+            //$('.loader').hide();
+            //$('.loading').hide();
+            //$('.file-upload-content').show();
             console.log('Predictions: ');
             console.log(predictions);
             console.log(predictions[0].className);
